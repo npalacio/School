@@ -38,9 +38,23 @@ parent(rich, bob).
 parent(susan, rich).
 parent(sam, rich).
 
+% grandparent/2 - X is a grandparent of Y if X is the parent of Z such that Z is the parent of Y
 grandparent(X,Y) :- parent(X,Z), parent(Z,Y).
+
+% grandfather/2 - X is the grandfather of Y if X is male AND X is the grandparent of Y
 grandfather(X,Y) :- male(X), grandparent(X,Y).
+
+% grandmother/2 - X is the grandmother of Y if X is female AND X is the grandparent of Y
 grandmother(X,Y) :- female(X), grandparent(X,Y).
 
+% paternal_grandfather/2 - X is the paternal grandfather of Y if X is male AND X is the parent of Z such that Z is the parent of Y and Z is male
 paternal_grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y), male(Z).
+
+% maternal_grandfather/2 - X is the maternal grandfather of Y if X is male AND X is the parent of Z such that Z is the parent of Y and Z is female
 maternal_grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y), female(Z).
+
+% paternal_grandfather/2 - X is the paternal grandmother of Y if X is female AND X is the parent of Z such that Z is the parent of Y and Z is male
+paternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), male(Z).
+
+% paternal_grandfather/2 - X is the maternal grandmother of Y if X is female AND X is the parent of Z such that Z is the parent of Y and Z is female
+maternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), female(Z).
