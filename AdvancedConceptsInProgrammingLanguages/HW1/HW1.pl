@@ -10,12 +10,10 @@
 
 % The third one differs in a couple ways. It's 'base case' is not only defined differently but also ordered differently.
 % The first two put their base case before their recursive definitions where as the third one puts its base case after its
-% definition. The third one defines its base case as someone is their own ancestor. The difference between the first two examples
-% and the third is best illustrated by asking prolog if bill or mary or anyone is their own ancestor (ancestor(bill,bill)). The
-% first two will say this is false. The third will say it is true.
-
-% at what point does prolog start plugging variables in and how does it know what to use?
-% is it accurate to call these recursive definitions with base cases?
+% definition. The third one defines its base case as someone is their own ancestor (I do not think that is accurate but that 
+% is beyond the scope of the question). The difference between the first two examples and the third is best illustrated by 
+% asking prolog if bill or mary or anyone is their own ancestor (ancestor(bill,bill)). The first two will say this is false.
+% The third will say it is true.
 
 % Question 2:
 male(bill).
@@ -41,5 +39,8 @@ parent(susan, rich).
 parent(sam, rich).
 
 grandparent(X,Y) :- parent(X,Z), parent(Z,Y).
-grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y).
-grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y).
+grandfather(X,Y) :- male(X), grandparent(X,Y).
+grandmother(X,Y) :- female(X), grandparent(X,Y).
+
+paternal_grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y), male(Z).
+maternal_grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y), female(Z).
