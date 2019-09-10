@@ -37,6 +37,8 @@ parent(rich, bob).
 %parent(rich, jane).
 parent(susan, rich).
 parent(sam, rich).
+parent(susan, kathy).
+parent(sam, kathy).
 
 % grandparent/2 - X is a grandparent of Y if X is the parent of Z such that Z is the parent of Y
 grandparent(X,Y) :- parent(X,Z), parent(Z,Y).
@@ -58,3 +60,12 @@ paternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), male(Z).
 
 % paternal_grandfather/2 - X is the maternal grandmother of Y if X is female AND X is the parent of Z such that Z is the parent of Y and Z is female
 maternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), female(Z).
+
+
+equal(X,X).
+different(X,Y):- \+ equal(X,Y).
+
+sibling(X,Y) :- different(X,Y), parent(Z,X), parent(Z,Y).
+
+% cousin/2 - X is the cousin of Y if Z is the parent of X such that Z is the sibling of Q AND Q is the parent of Y
+cousin(X,Y) :- parent(Z,X), sibling(Z,Q), parent(Q,Y).
