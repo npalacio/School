@@ -39,3 +39,6 @@ parent(rich, bob).
 %parent(rich, jane).
 parent(susan, rich).
 parent(sam, rich).
+
+grandfather(X,Y) :- male(X), parent(X,Z), parent(Z,Y).
+grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y).
