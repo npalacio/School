@@ -1,4 +1,4 @@
-% Question 1: 
+% Question 1:
 % The first two examples both have their first definitions of an ancestor as the 'base case' for lack of a better term.
 % They both, at first, say that X is an ancestor of Y if X is a parent of Y. This makes sense because it is the
 % simplest form of an ancestor, a parent. The first two examples differ in their second definition of an ancestor.
@@ -33,10 +33,9 @@ parent(kathy, mary).
 parent(mike, mary).
 parent(patty, bob).
 parent(rich, bob).
-%parent(patty, jane).
-%parent(rich, jane).
 parent(susan, rich).
 parent(sam, rich).
+% I made rich and kathy siblings so I could have a set of cousins (bob and mary) in my facts
 parent(susan, kathy).
 parent(sam, kathy).
 
@@ -61,10 +60,9 @@ paternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), male(Z).
 % paternal_grandfather/2 - X is the maternal grandmother of Y if X is female AND X is the parent of Z such that Z is the parent of Y and Z is female
 maternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), female(Z).
 
-
+% I stole these from the slides so I don't feel the need to comment about these
 equal(X,X).
 different(X,Y):- \+ equal(X,Y).
-
 sibling(X,Y) :- parent(Z,X), parent(Z,Y), different(X,Y).
 
 % cousin/2 - X is the cousin of Y if Z is the parent of X such that Z is the sibling of Q AND Q is the parent of Y
