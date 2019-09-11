@@ -65,7 +65,7 @@ maternal_grandmother(X,Y) :- female(X), parent(X,Z), parent(Z,Y), female(Z).
 equal(X,X).
 different(X,Y):- \+ equal(X,Y).
 
-sibling(X,Y) :- different(X,Y), parent(Z,X), parent(Z,Y).
+sibling(X,Y) :- parent(Z,X), parent(Z,Y), different(X,Y).
 
 % cousin/2 - X is the cousin of Y if Z is the parent of X such that Z is the sibling of Q AND Q is the parent of Y
 cousin(X,Y) :- parent(Z,X), sibling(Z,Q), parent(Q,Y).
