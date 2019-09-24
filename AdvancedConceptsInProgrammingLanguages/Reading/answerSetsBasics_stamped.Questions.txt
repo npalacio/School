@@ -1,0 +1,4 @@
+-what is an answer set? The set of all answers that satisfy something?
+
+-in Proposition 2, what is meant by the intersection of all sets that satisfy a program II
+-answer set = simplest answer?

@@ -2,7 +2,6 @@
 
 equal(X,X).
 different(X,Y):- \+ equal(X,Y).
-
 member(X, [X|_]).
 member(X, [Y|Tail]) :-
     different(X,Y),
@@ -27,7 +26,7 @@ remove_duplicates([H | T], [H|T1]) :-
       remove_duplicates( T, T1).
 
 
-% 1. set_union/3 - if X and Y are sets in list form, then Z is the union of X and Y
+% 1. set_union/3
 % A union is a set of elements such that each element exists in at least one set
 set_union([],[],[]).
 set_union([X],[],[X]).
@@ -41,4 +40,13 @@ set_union(ListX,ListY,UnionList) :-
     append(ListX,ListY,DuplicatedUnionList),
     remove_duplicates(DuplicatedUnionList,UnionList).
 
+% 2. set_intersection/3
+set_intersection(ListX,ListY,IntersList) :-
+    append(ListX,ListY,DuplicatedList),
+    remove_duplicates(DuplicatedList,DeduplicatedList)
+    remove_items(ListX,DeduplicatedList,ListMinusX),
+    remove_items(ListY,ListMinusX,IntersList).
 
+% remove_items/2 - List is the result of removing elements from Y that do not exist in X
+remove_items(X,Y,List) :-
+    

@@ -1,0 +1,5 @@
+-what do the number mean before curly braces?
+
+-ASP allows for incomplete information
+	-strong negation = knowing it to be false
+	-classical negation = failing to prove it is true
