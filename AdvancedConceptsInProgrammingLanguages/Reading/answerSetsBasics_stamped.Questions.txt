@@ -2,3 +2,6 @@
 
 -in Proposition 2, what is meant by the intersection of all sets that satisfy a program II
 -answer set = simplest answer?
+
+-I dont understand how a program with negation can be generated from another program with negation? definition 4
+
