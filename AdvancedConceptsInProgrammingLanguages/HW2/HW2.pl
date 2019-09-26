@@ -53,6 +53,19 @@ set_intersection([X|Xs],Ys,[X|Tail]) :-
     member(X,Ys),
     set_intersection(Xs,Ys,Tail).
 
+% 3. set_difference/3
+% If Xs and Ys are sets, then Difference is the set such that each element exists in Xs AND does NOT exist in Ys
+set_difference([],_,[]).
+set_difference(Xs,[],Xs).
+
+set_difference([X|Xs],Ys,[X|Tail]) :-
+    \+member(X,Ys),
+    set_difference(Xs,Ys,Tail).
+
+set_difference([X|Xs],Ys,Difference) :-
+    member(X,Ys),
+    set_difference(Xs,Ys,Difference).
+
 % remove_items([],Ys,Ys).
 % remove_items(_,[],[]).
 
