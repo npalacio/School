@@ -41,12 +41,25 @@ set_union(ListX,ListY,UnionList) :-
     remove_duplicates(DuplicatedUnionList,UnionList).
 
 % 2. set_intersection/3
-set_intersection(ListX,ListY,IntersList) :-
-    append(ListX,ListY,DuplicatedList),
-    remove_duplicates(DuplicatedList,DeduplicatedList)
-    remove_items(ListX,DeduplicatedList,ListMinusX),
-    remove_items(ListY,ListMinusX,IntersList).
+set_intersection([],_,[]).
+set_intersection(_,[],[]).
 
-% remove_items/2 - List is the result of removing elements from Y that do not exist in X
-remove_items(X,Y,List) :-
-    
+% set_intersection/3 - IntersectionXY is the set of elements such that each element exists in the set Ys AND the set Xs
+set_intersection([X|Xs],Ys,IntersectionXY) :-
+    \+member(X,Ys),
+    set_intersection(Xs,Ys,IntersectionXY).
+
+set_intersection([X|Xs],Ys,[X|Tail]) :-
+    member(X,Ys),
+    set_intersection(Xs,Ys,Tail).
+
+% remove_items([],Ys,Ys).
+% remove_items(_,[],[]).
+
+% remove_items(Xs,[Y|Ys],[Y|Tail]) :-
+%     \+member(Y,Xs),
+%     remove_items(Xs,Ys,Tail).
+
+% remove_items(Xs,[Y|Ys],List) :-
+%     member(Y,Xs),
+%     remove_items(Xs,Ys,List).
