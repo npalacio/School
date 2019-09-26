@@ -66,13 +66,10 @@ set_difference([X|Xs],Ys,Difference) :-
     member(X,Ys),
     set_difference(Xs,Ys,Difference).
 
-% remove_items([],Ys,Ys).
-% remove_items(_,[],[]).
+% 4. is_subset/2
+% If Xs and Ys are sets, then is_subset is true IFF every element of Xs exists in Ys
+is_subset([],_).
 
-% remove_items(Xs,[Y|Ys],[Y|Tail]) :-
-%     \+member(Y,Xs),
-%     remove_items(Xs,Ys,Tail).
-
-% remove_items(Xs,[Y|Ys],List) :-
-%     member(Y,Xs),
-%     remove_items(Xs,Ys,List).
+is_subset([X|Xs],Ys) :-
+    member(X,Ys),
+    is_subset(Xs,Ys).
