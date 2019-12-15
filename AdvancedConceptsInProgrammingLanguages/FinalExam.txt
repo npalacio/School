@@ -1,0 +1,30 @@
+Final Exam
+1. 
+	a. Declarative, functional, imperative.
+		- Declarative - talking about WHAT something is
+		- Functional - defining functions that can be composed together to compute something
+		- Imperative - talking about HOW to compute something
+		
+		- Post grammar - The Post Grammar (or context free grammar) is a computational model based around string manipulation
+		and substitution where you have
+		terminal symbols, non-terminal symbols (variables), an initial start symbol and a set of production rules. A production rule
+		is where you say a symbol can be substituted using another symbol, either terminal or non-terminal. A production rule must be of the
+		form X --> Y where X is 1 or many symbols (terminal or non-terminal) and Y is 0 or many symbols (terminal or non-terminal).
+		The post grammar computational
+		model can be viewed in the same light as the declarative programming paradigm in that both of these only need to concern themselves
+		with talking about WHAT something is, not necessarily HOW to compute anything. The production rules of a Post Grammar can be viewed
+		as declaring what a symbol is, or can be substituted with.
+		
+		- Lambda Calculus - Lambda calculus is another computation model based around 
+		- Turing machine
+	b. Polog, Lisp/Scheme, Go
+		- Prolog - The Prolog programming language was based on the declarative programming paradigm and post grammars. This is
+		evident when you view the production rules of a post grammar as the facts and relations written in Prolog. A prolog fact can
+		be viewed as providing a set of terminal symbols and a prolog relation can be viewed as a production rule. Writing either of these
+		in Prolog is declarative because all you do is say WHAT something is using relations and facts. You do not have to 
+		(for the most part) concern yourself with HOW to compute something, aside from some nuances of the Prolog interpreter.
+		These can be combined by the Prolog
+		interpreter to answer queries about a knowledge base. A knowledge base in Prolog is a set of facts and relations.
+
+		
+		- Lisp/Scheme - Based on Lambda calculus. 
