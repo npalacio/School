@@ -33,14 +33,27 @@ Final Exam
 		by executing an instruction. An instruction might be writing a new value to a variable or performing a math operation. This model
 		is based heavily on executing a sequence of instructions in a particular order, as defined by the algorithm. An algorithm in this
 		model would look like a lot of assignment statements and mathematical computations that are executed in a specific order.
+		This computational model can be viewed in the same light as the imperative programming paradigm because both of them would
+		have you implement an algorithm as a set of variable assignments and computations that are executed in an order. Both deal very
+		heavily with HOW to compute something. This can be contrasted with the declarative paradigm which deals with describing WHAT something
+		is.
 	b. Polog, Lisp/Scheme, Go
-		- Prolog - The Prolog programming language was based on the declarative programming paradigm and post grammars. This is
-		evident when you view the production rules of a post grammar as the facts and relations written in Prolog. A prolog fact can
-		be viewed as providing a set of terminal symbols and a prolog relation can be viewed as a production rule. Writing either of these
-		in Prolog is declarative because all you do is say WHAT something is using relations and facts. You do not have to 
-		(for the most part) concern yourself with HOW to compute something, aside from some nuances of the Prolog interpreter.
-		These can be combined by the Prolog
-		interpreter to answer queries about a knowledge base. A knowledge base in Prolog is a set of facts and relations.
+		- Prolog - The Prolog programming language was based on the declarative programming paradigm. When you are defining facts and
+		relations in prolog you are declaring WHAT something is. You are not talking about HOW to compute anything, Prolog abstracts this
+		away from you, for the most part. One of the key ideas behind prolog is a Horn clause. A horn clause is a disjunction of literals
+		with at most one positive literal. Horn clauses can be rewritten as implications which is the part of Horn clauses that is evident
+		in Prolog. Prolog facts and relations are implications that resemble Horn clauses. Prolog relations can be interpreted in a
+		simplified form as 'if these things are true then this thing is true' which is exactly what an implication in logic is.
 
 		
-		- Lisp/Scheme - Based on Lambda calculus. 
+		- Lisp/Scheme - Lisp and a dialect called Scheme are based on the functional programming paradigm which is based on Lamda Calculus.
+		It is clear to see this when you
+		look at the fact that (almost) everything in Scheme is a pure function definition or invocation. You define functions with inputs
+		and outputs and compose them together to compute whatever you are trying to compute.
+		
+		- Go - Go is based on the imperative programming paradigm which is based on the Turing machine. In go you write sequences of
+		statements that are executed in a particular order that you also define. The assignment statement is one of the fundamental ideas
+		of this language/programming paradigm where you read from and write to memory locations (variables) that can be viewed as the tape
+		used when talking about a Turing machine.
+		
+		
