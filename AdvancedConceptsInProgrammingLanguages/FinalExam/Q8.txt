@@ -1,0 +1,9 @@
+The primary distinction between the procedural/imperative programming paradigm and the declarative/functional
+paradigm is that the procedural/imperative paradigm talks about HOW to calculate something. It has you
+write a series of steps that must be executed in an order that will eventually take you to a final state
+where you have calculated something useful (hopefully). The declarative/functional paradigm has
+you talk about WHAT something is. It has you describe what things are as opposed to how to calculate them.
+The declarative/functional paradigm abstracts you from lower level implementation concerns that do not
+typically have anything to do with the problem you are solving. It allows you to not have to worry about
+lower level concerns which can be very freeing while you are solving a problem in the real world because
+it frees up that brain space and computational energy which can be put towards the real problem at hand.
