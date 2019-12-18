@@ -1,11 +1,9 @@
-
 equal(X, X).
 different(X,Y):- \+ equal(X,Y).
 member(X, [X|_]).
 member(X, [Y|Tail]) :-
- different(X,Y),
- member(X, Tail).
-
+different(X,Y),
+member(X, Tail).
 node(x).
 node(y).
 node(z).
@@ -19,15 +17,14 @@ edge(y,z).
 edge(z,a).
 edge(a,b).
 edge(e,x).
-
 edge(x,c).
 edge(c,d).
 edge(d,x).
 path(X, Y):-
- edge(X, Y).
+edge(X, Y).
 path(X, Y):-
- edge(Z, Y),
- path(X, Z).
+edge(Z, Y),
+path(X, Z).
 % I got some help online with this one so I am going to talk through what it
 % is doing and why it works. In my initial attempts at solving this problem I
 % started out with:
@@ -43,7 +40,7 @@ path(X, Y):-
 % I will dispatch the work to another relation cycle(X,VisitedNodes) which
 % keeps track of what nodes we have gone through so far so as to enforce that
 % we do not visit the same node twice. If we ever find that our current node
-% already exists in the list of visited nodes then we know that we have found 
+% already exists in the list of visited nodes then we know that we have found
 % a cycle. HOWEVER, there is a small bug in this implementation that I will
 % point out. This relation will return true if you give it a starting node
 % where there is no cycle to/from that node but that starting node has an
@@ -52,9 +49,9 @@ path(X, Y):-
 % to/from e because e has an edge to the cycle containing x (x -> c -> d ->
 % x).
 cyclic(X) :-
- cycle(X, []).
+cycle(X, []).
 cycle(CurrentNode, VisitedNodes):-
- member(CurrentNode, VisitedNodes).
+member(CurrentNode, VisitedNodes).
 cycle(CurrentNode, VisitedNodes):-
- edge(CurrentNode, NextNode),
- cycle(NextNode, [CurrentNode|VisitedNodes]).
+edge(CurrentNode, NextNode),
+cycle(NextNode, [CurrentNode|VisitedNodes]).
