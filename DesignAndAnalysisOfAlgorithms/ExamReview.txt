@@ -1,0 +1,69 @@
+2.3-4
+T(n) = T(n-1) + n
+-there will be n levels
+-cost of n at each levels
+T(n) = O(n^2)
+
+2.3-5
+Binary search
+
+search(node, value):
+    if node == null
+        return null
+    else if node.value == value
+        return node
+    else if node.value > value
+        return search(node.left, value)
+    else
+        return search(node.right, value)
+
+T(n) = T(n/2) + c
+-lg(n) levels
+-constant cost at each levels
+T(n) = O(lg(n))
+
+4.1-1
+[1, 3, -2, 5, -4, 6, 2]
+[1, 3, -2, 5] [-4, 6, 2]
+best left subarray([1, 3, -2, 5]): [1, 3, -2, 5]: 7
+    best left subarray([1, 3]): [1,3]: 4
+        best left subarray([1]): 1
+        best right subarray([3]): 3
+        best crossing subarray([1,3]): 4
+    best right subarray([-2, 5]): [5]: 5
+        best left subarray([-2]): -2
+        best right subarray([5]): 5
+        best crossing subarray([-2,5]): 3
+    best crossing subarray([1, 3, -2, 5]): [1, 3, -2, 5]: 7
+best right subarray([-4, 6, 2]): [6, 2]: 8
+    best left subarray([-4, 6]): [6]: 6
+        best left: [-4]: -4
+        best right: [6]: 6
+        best crossing: [-4, 6]: 2
+    best right subarray([2]): [2]: 2
+    best crossing subarray([-4, 6, 2]): [6, 2]: 8
+best crossing subarray([1, 3, -2, 5, -4, 6, 2]): [1, 3, -2, 5, -4, 6, 2] = 11
+
+When all elements are negative it returns the index of the biggest (least negative) number in the list as the subarray
+
+4.1-2
+
+Max-subarray(A):
+maxValue = -infinity
+maxLeft = 1
+maxRight = 1
+for i = 1 .. |A|
+    currSum = A[i]
+    currMaxValue = A[i]
+    currMaxLeft = i
+    currMaxRight = i
+    for j = i + 1 .. |A|
+        currSum += A[j]
+        if currSum > currMaxValue:
+            currMaxValue = currSum
+            currMaxRight = j
+    if currMaxValue > maxValue
+        maxValue = currMaxValue
+        maxLeft = currMaxLeft
+        maxRight = currMaxRight
+return (maxLeft, maxRight, maxValue)
