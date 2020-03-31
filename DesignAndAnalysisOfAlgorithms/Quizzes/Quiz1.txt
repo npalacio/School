@@ -1,0 +1,8 @@
+1a. S1 and S2 will both be an array.
+1b. 
+EmptyIntersection(S1, S2)           Times Executed      Cost
+    for i = 1 .. |S1|               n                   constant
+        for j = 1 .. |S2|           n^2                 constant
+            if S1[i] == S2[j]       n^2                 constant
+                return false
+    return true
