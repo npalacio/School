@@ -41,12 +41,35 @@ set_union(ListX,ListY,UnionList) :-
     remove_duplicates(DuplicatedUnionList,UnionList).
 
 % 2. set_intersection/3
-set_intersection(ListX,ListY,IntersList) :-
-    append(ListX,ListY,DuplicatedList),
-    remove_duplicates(DuplicatedList,DeduplicatedList)
-    remove_items(ListX,DeduplicatedList,ListMinusX),
-    remove_items(ListY,ListMinusX,IntersList).
+set_intersection([],_,[]).
+set_intersection(_,[],[]).
 
-% remove_items/2 - List is the result of removing elements from Y that do not exist in X
-remove_items(X,Y,List) :-
-    
+% set_intersection/3 - IntersectionXY is the set of elements such that each element exists in the set Ys AND the set Xs
+set_intersection([X|Xs],Ys,IntersectionXY) :-
+    \+member(X,Ys),
+    set_intersection(Xs,Ys,IntersectionXY).
+
+set_intersection([X|Xs],Ys,[X|Tail]) :-
+    member(X,Ys),
+    set_intersection(Xs,Ys,Tail).
+
+% 3. set_difference/3
+% If Xs and Ys are sets, then Difference is the set such that each element exists in Xs AND does NOT exist in Ys
+set_difference([],_,[]).
+set_difference(Xs,[],Xs).
+
+set_difference([X|Xs],Ys,[X|Tail]) :-
+    \+member(X,Ys),
+    set_difference(Xs,Ys,Tail).
+
+set_difference([X|Xs],Ys,Difference) :-
+    member(X,Ys),
+    set_difference(Xs,Ys,Difference).
+
+% 4. is_subset/2
+% If Xs and Ys are sets, then is_subset is true IFF every element of Xs exists in Ys
+is_subset([],_).
+
+is_subset([X|Xs],Ys) :-
+    member(X,Ys),
+    is_subset(Xs,Ys).

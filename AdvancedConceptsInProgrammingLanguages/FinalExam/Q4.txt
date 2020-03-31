@@ -1,0 +1,8 @@
+The list operations car and cdr were initially assembly language instructions that would give you
+the first half of a word of memory (car) or the second half of a word of memory (cdr). It was discovered
+that if you structured your data in a word of memory such that you placed a datum in the first half of
+a word and the address to the next node in the second half of the word you could create what we know today
+as a linked list. In assembly you could load the memory address of a node and use car to get the datum at
+that node and then cdr to get the address of the next node you could easily traverse the linked list.
+Lists in Lisp are implemented as a linked list which is why you can use car to get the head of a list
+and cdr to get the tail of a list which is really the memory address of the next node in the list.
