@@ -1,0 +1,10 @@
+-touchpoints
+    -security activities done at different points in the SDLC
+    -most important touchpoints are code reviews and architectural risk analysis
+    -third place is pen testing
+        -most places today put this in first place but it is very reactive (finding the problem after its been deployed to Prod)
+        -first 2 focus on the process
+        -can force an organization to start investing in security
+    -external analysis by someone not designing the system is important
+-way better to find security issues early in SDLC
+'Touchpoints as best practices'
