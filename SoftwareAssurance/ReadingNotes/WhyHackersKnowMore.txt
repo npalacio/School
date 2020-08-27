@@ -1,0 +1,40 @@
+-Internet connected stuff that used to not be connected
+-security requirements today are better than yesterday but legacy stuff is still out there
+-hackers share info amongst each other way better than blue team
+-time is on the hackers side
+-open source stuff presents more challenges
+-complex system integrations from things like mergers make stuff even harder
+-security assessments are often too detached from the source code
+    -leads to lack of traceability
+    -can get out of date easy
+-white box testing
+    -starting with the code (fortify)
+    -does not cover whole system
+    -can produce a lot of noise
+-black box testing
+    -pen testing
+    -can attack network security
+        -packet injection
+        -sniffing
+            -less intrusive
+            -can run 24/7
+            -can be discovered easier?
+    -can attack software security
+-modeling a system's design before implementation can be good to ensure security requirements but if it is manual it will get out of date
+-best idea is an automated way to generate the model from source code (what is the model exactly?)
+-security engineering
+    -deals with out of the box solutions from a catalog?
+-risk assessment
+    -only identifies risk, not a solution?
+-assurance
+    -being able to make a justifiable argument about the security posture of a system
+-need to automate security analysis
+-assurance ecosystem
+    -stakeholders
+    -general knowledge
+        -related to the 'family' that the system belongs to?
+    -concrete knowledge
+        -related to the specific system
+    -what is knowledge?
+-need shared vocabulary for an assurance ecosystem
+    -standard data format and communication protocol
