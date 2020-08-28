@@ -7,4 +7,11 @@
         -can force an organization to start investing in security
     -external analysis by someone not designing the system is important
 -way better to find security issues early in SDLC
-'Touchpoints as best practices'
+-most commercial security products and services focus on solving the problem late in the SDLC (in operations)
+-'The clueless are often gifted with the ability to be clueless in multiple dimensions simultaneously'
+-implementing any of these touchpoints helps even if you cant do them all
+-operations vs development in security
+-person who knows the system the best is best candidate to make it secure
+-developers are the best candidates to turn into software security folk
+-because there are so many different types of people in security today, because standard academic degrees are not common enough, we get a great variety of viewpoints
+    -should be careful to not turn into a discipline with only one type of person
