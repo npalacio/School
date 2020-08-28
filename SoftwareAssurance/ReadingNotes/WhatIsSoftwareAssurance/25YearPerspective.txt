@@ -1,0 +1,13 @@
+-1974, Multics OS had security issues
+    -report for this was first to demonstrate issue in the code (bugs) and the issue of not baking security into the SDLC
+-rise of internet in 1990 really exposed the issues in softare at that time
+-mid 1990s people started to provide vocabulary for how people attack their software
+    -attack trees, attack patterns, threat modeling
+-2005, first sale of a vulnerability
+    -for NSA employee sold linux vulnerability to US Govt for $80K
+-people started attacking the IOT (medical devices, GPS, consumer electronics, printers)
+-2012, govt created agency to vet electronics used by DOD for vulnerabilites/exploitation
+-1985, Parnas resigns from agency (Strategic Defense Initiative Organization, SDIO) where they were making software to manage nuclear bombs
+    -said software could not be 100% solid and risk of nuclear holocaust was too high
+    -1990 two researchers from here publish Trusted Software Development Methodology, first secure SDLC methodology
+    
