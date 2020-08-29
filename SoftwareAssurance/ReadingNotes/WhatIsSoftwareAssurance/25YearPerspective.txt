@@ -21,3 +21,19 @@
     -vendors initially sent their softare with a dongle you had to plug into your computer for it to run
         -didnt work because enterprises needed backups and it was easy to lose dongles
     -vendors moved to licensing using more software like we do today
+-2001, DoD establishes Software Protection Initiative (SPI)
+    -worked on ways to prevent reverse engineering from binaries, tampering binaries and counterfeiting binaries
+-2009 Google China employee was phished and they stole the source code for googles password management
+-1998 microsoft realized they had too many Windows vulnerabilities, launched internal team that published methodologies for secure dev
+-microsoft was very influential in software assurance
+    -so was financial sector (Visa, etc.)
+-public sector were working on ways for secure dev as well
+-govt realizes vendor software is always potentially vulnerable, focuses instead on system assurance and mitigating damage from compromised software
+-govt has a lot of software assurance related programs in the 2000s
+    -NSA, DHS, DoD
+-2006, DHS put out common body of knowledge for software assurance for use in academia
+    -helped push to create the programs in universities
+-DHS had global initiatives around this stuff, supported by DoD
+    -inspired similar programs in UK
+-software decisions today are focused too much on innovations/features without regard to security
+    -push should be in consumers to demand secure software = start affecting bottom lines
