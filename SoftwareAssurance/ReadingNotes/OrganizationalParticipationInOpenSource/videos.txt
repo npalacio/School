@@ -1,0 +1,12 @@
+-Netflix leverages freeBsd Open Source OS
+-Toyota uses automotive grade linux
+-both these companies are using OSS for something that is not a competetive advantage but needed
+    -non differentiating technology
+-surprising companies are willing to rely on a community that is not guaranteed to maintain something they need
+-leveraged development model seems like a no brainer, all the same benefit for 1/X the cost?
+-what are good indicators for a piece of software developed inside a company that say it might be a good candidate to Open Source it?
+-makes all these companies mutually dependent on each other it seems
+-didnt know linux foundation supported more OS projects than just linux
+    -provides structure for OS projects
+-using OS can make it harder to find softare vulnerabilities
+-not all OS licenses let you use them in a proprietary program

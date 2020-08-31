@@ -1,0 +1,27 @@
+-security today focuses too much on perimeter (network, system), not enough on actual applications
+-people today are not asking the right questions
+    -it is system/process problem but we are 'tacking on security at the end' when we pen test, etc.
+-most software assurance definitions focus on confidence (having a basis for belief) that software will operate as expected and handle threats
+-challenges in software assurance
+    -enumerate and plan for known attacks
+    -expect and address unknown attacks
+    -acknowledge that software will fail in attacks it was not designed for, so have a complete recovery plan
+-software weakness = something that contributes to a vulnerability in the software
+-you will never be able to find all vulnerabilities in the software if you only use pen testing because the foundation is bad and you cannot hire enough pen testers to find all the problems
+-software security engineering = software assurance
+    -says that software has been designed and tested to operate in its intended threat environment
+1969, Ware report
+    -biggest risk in system software is incomplete design
+-course
+    -want to integrate security thinking in SDLC
+    -be able to articulate assurance arguments with evidence
+    -get experience doing this with open source projects
+-engineering for security vs safety/reliability
+    -with safety/reliability you are fighting randomness
+    -with security you are fighting an intelligent enemy
+-information assurance = staying secure (maintenance activities)
+    -perimeter activities
+-build the right solution (design it to meet operational intent)
+-build the solution right (implementation meets design intent)
+-rugged software = durable software
+    -
