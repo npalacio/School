@@ -26,3 +26,12 @@ Ch 2
 -system of interest = focus of engineering effort
 
 2.3
+-SSE delivers 'adequately' secure systems
+-stakeholders define the value of an asset in the context of its loss
+-protection not only implies prevention but: detection, recovery, prediction of asset loss
+-secure system is one where the system is free from those conditions that can result in unacceptable asset loss
+-security tends to focus on loss in terms of the adversary that 'caused' it but conditions and other events can enable it as well
+-must recognize that we do not know everything
+-security needs to account for when the system is in a degraded state
+
+2.3.1
