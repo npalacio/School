@@ -1,0 +1,28 @@
+Foreword
+-NIST is govt agency?
+-surprising how interested the govt is in creating secure systems for private businesses
+-kinda scary how much of a national security concern this is
+-US is not well postured at all to handle a full on attack (cyber, military, etc.)
+-calls for protecting our assets, integrating security into processes
+-systems security engineering is a specialty discipline of systems engineering
+
+Ch 2
+-18 pages
+-systems engineering is meant to produce a capability (the system)
+-system security requires security activities to be integrated into the processes of the system engineering effort
+-knowing your assets and engineering to protect against their loss are the focal points of systems security engineering
+
+2.1
+-SSE = systems security engineering
+-SSE must provide evidence of security
+-SSE takes investment, will not happen passively
+-SSE needs to be able to do cost/benefit analysis on security functions and considerations
+-SSE provide security perspective to SE processes/activities
+
+2.2
+-system = set of interacting elements organized to achieve a purpose
+-every system's environment can have an effect on it
+-system element can be a system on its own so context matters when talking about a system
+-system of interest = focus of engineering effort
+
+2.3
