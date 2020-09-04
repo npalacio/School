@@ -35,3 +35,24 @@ Ch 2
 -security needs to account for when the system is in a degraded state
 
 2.3.1
+-active protection = explicit security functionality whose behavior satisfies security requirements
+-passive protection = environment of execution (architecture, design)
+-adequate security comes from the reasoned sum of all security protections (active and passive)
+
+2.3.2
+-security failure = not meeting security requirements, objectives or performance measures or exhibiting unspecified behavior, interactions or producing unspecified results
+-security failures can be forced (malicious hacker or normal user) and unforced (machine level errors)
+-security failure is defined and assessed in terms of asset loss
+-events associated with security failure = threats
+
+2.3.3
+-strategy for system security should be proactive (address what CAN happen, not what MIGHT happen) and reactive (despite the best plan, shit happens, need to be able to react appropriately when it does)
+-how much investment you make in security depends on the value of the asset
+
+2.3.4
+-System Security = 'Freedom from those conditions that can cause a loss of assets with unacceptable consequences'
+-System Security can be very subjective at times based on how the different stakeholders evaluate asset loss and its consequences
+    -security is achieved through reasoning
+-can never say system is secure, can say it is insecure
+
+2.3.5
