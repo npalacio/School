@@ -56,3 +56,32 @@ Ch 2
 -can never say system is secure, can say it is insecure
 
 2.3.5
+-characteristics of a system that contribute to its security characteristic
+    -makeup of system, mechanical, human elements
+        -technology used
+    -modes of system
+    -criticality of system
+    -consequence of failure
+    -the way the capability of the system is delivered
+        -service, function, operation
+        -delivered as system of systems
+
+2.3.6
+-roles for SSE
+    -engineering the security functions that provide security capabilities
+    -engineering security driven constraints of system functions
+    -engineering and advising for the protection of data/assets associated with the system
+
+2.4 Systems Security Engineering Framework
+-Framework
+    -problem context
+        -define security requirements
+    -solution context
+        -solve for security requirements
+    -trustworthiness context
+        -demonstrate that system is adequately secure
+-system security analyses
+    -produces data to inform engineering and stakeholder decision making
+-framework is a feedback loop as well to iterate through
+
+2.4.1
