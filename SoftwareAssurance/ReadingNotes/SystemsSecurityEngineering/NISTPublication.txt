@@ -84,4 +84,18 @@ Ch 2
     -produces data to inform engineering and stakeholder decision making
 -framework is a feedback loop as well to iterate through
 
-2.4.1
+2.4.1 The Problem context
+-defining adequately secure
+-includes life cycle security concepts (activities related to the system throughout its life cycle), security objective and requirements
+-measures of success
+
+2.4.2 The Solution context
+-solving the problems
+-turn security requirements into design requirements for the system
+-produces evidence for security
+
+2.4.3 The Trustworthiness context
+-continuing to demonstrate that the system is secure
+-based on an assurance cause
+    -a structured set of claims about a system with evidence to support those claims
+-have to balance how hard it is to gather evidence for an assurance case with how great the need is to have this assurance
