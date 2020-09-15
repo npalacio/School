@@ -1,0 +1,38 @@
+1
+-need to establish case for investment in security since it does have a cost
+-6 tiers of attackers
+    -1-2: using known vulnerabilities
+    -3-4: finding new vulnerabilities
+    -5-6: create vulnerabilities (US, Chine, Russia)
+-one country that creates mass consumer electronics can be seen as a big threat
+-3 tiers of vulnerabilities
+    -1: known
+    -2: unknown
+    -3: adversary created
+    -2&3 are invisible
+    -iceberg, 'above and below the waterline' vulnerabilities
+
+2
+-enabling system = supports system of interest but does not directly contribute to its functionality
+    -compilers, IDE, unit tests
+-active protections = have to add code for these
+    -access control, SSO, authentication
+-passive protections = having up to date compilers, SDKs
+    -architecture, design, code review
+-adequate security
+    -well reasoned sum of active and passive protections
+    -for all system execution modes (initialization, operation, shutdown)
+    -for all system states (degraded, etc)
+    -for all transitions between state and modes
+
+3
+-problem context = sufficiently complete understanding of the problem
+    -define security objectives and measures of success
+    -security requirements - specify functionaly, assurance and strength characteristics of a protection mechanism
+        -access control = functional
+        -secure coding standards being followed in development = assurance requirement
+        -rigor in enforcement and granularity of access control = strength requirement
+-solution context
+    -collect evidence that the solution meets requirements
+-trustworthiness context = evidence based demonstration that the system of interest is trustworthy
+    -developing well reasoned argument for security of system
