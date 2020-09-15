@@ -1,0 +1,35 @@
+1
+-Requirements are elicited, they are drawn out from customer using structured method
+-2 technical processes in requirements phase of SDLC can integrate security
+    -Stakeholder needs and requirements definition process
+        -should define stakeholder security requirements
+        -this would include protection capabilities, security characteristics and security driven constraints
+        -should identify general features and security features
+    -System requirements definition process
+        -transforming stakeholder requirements to technical system requirements
+        -output of this process is list of active protection capabilities
+        -should also figure out how strong of assurance is needed for system
+-What is the environment vs the machine?
+    -stakeholder requirements are typically about the environment
+    -system requirements are about the machine
+-software needs to fit a purpose, bad software can happen when purpose does not match what was built
+-Use cases
+    -why and how would someone use the software
+    -goal driven scenarios
+        -software should accomplish something
+-user stories
+    -'as a X I want Y so that GOAL'
+    -goal driven scenarios
+    -Card, Conversation, Confirmation
+
+2 - What is Requirements Engineering (RE)
+-RE is bridge between real world user needs and software systems
+-RE identifies purpose and context of software
+-RE builds bride between stakeholder requirements and system requirements
+-Is the env of operation the technical environment or the business environment?
+-Shared phenomena = interface = input or output of human and machine
+-what is a domain?
+    -given domain = things that exist
+        -indicative mood
+    -design domain = what we want to produce as an artifact
+-requirements are all about relationships between things in the environment of operation
