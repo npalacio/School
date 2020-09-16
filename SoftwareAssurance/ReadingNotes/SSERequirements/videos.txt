@@ -31,5 +31,43 @@
 -what is a domain?
     -given domain = things that exist
         -indicative mood
+        -'D' = domain properties
     -design domain = what we want to produce as an artifact
+        -optative mood = what customer wants to be true
+        -'R' = Requirements
 -requirements are all about relationships between things in the environment of operation
+-system requirements expressed in optative mood (desired state)
+    -desired condition of system interface
+-problem frames
+    -machine = software
+    -designed domain = wishes, artifacts
+    -given domain = what we have now
+    -requirements = the only thing that is not a tangible entity
+    -interface = input or output to/from machine
+    -requirements constrain domains to behave or be a certain way
+-mailbox analyzer example
+    -mail to analyze = given domain
+    -analysis report = design domain, what we produce
+    -mail and report are interface of machine
+    -analysis report is constrained by analysis rules (requirements)
+    -interface between machine and mail to analyze is an observable event with data (directory of the mail, mail file and mail content)
+        -MF! {Directory, file, content}
+-'S' = how we want machine to behave at its interfaces
+    -system specification
+-'S' entails 'D' (given state) and 'R' (desired state)
+    -they should all fit together
+-Security problem frame vs abuse frame?
+    -security frame = security machine, the mechanisms that provide security (authentication)
+        -like an answer to the abuse frame
+    -abuse frame = like if hacking were a business and you were making a problem frame where the problem you are trying to solve is how to hack something
+-anti-requirement = requirement for hacker
+-malicious actor would be domain
+-the security design problem
+    -what security functions are needed in 'S' (system specification) such that given a malicious user D and R are satisfiable?
+        -active protections
+            -can be implemented in 'S' (software protection) or in 'D' (the domain)
+            -in domain an active protection or constraint might be controlled physical access or an authorization database to use
+    -what weaknesses should be avoided is 'S' (system specification) such that given a malicious user D and R are satisfiable?
+        -passive protections
+            -can be avoided in 'S' (using up to date frameworks, SQL parameters)
+            -can be avoided in 'D' (no passwords on sticky notes, complex passwords)
