@@ -1,0 +1,20 @@
+-software builders usually focusing on describing what a system will do when everything goes right
+-'emergent properties' = cumulative/aggregate properties of software that slowly take shape?
+    -these are complicated
+-people are starting to demand security from software vendors
+-developers should start asking 'what might a bad person cause to go wrong here?'
+-thought exercise - assume best engineer now is bad guy, what damage could they do?
+-previous academics recommend use and abuse cases leveraged in tandem
+-security is an emergent property, not a feature
+-security is not an external thing that can be attached or added, it must be considered in all phases of SDLC
+    -think like a bad guy in all phases of SDLC, constantly ask how something new can be abused
+-'clever attackers always try to undermine the assumptions a system was built on'
+-attackers will always check some things
+    -intersystem communication
+    -edge cases
+    -etc.
+-what assumptions are in our system?
+-what could make those assumptions false?
+-what kinds of attack patterns will an attacker use?
+-'abuse is always possible at the places where legitimate use is possible'
+
