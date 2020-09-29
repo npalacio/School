@@ -71,3 +71,5 @@
         -passive protections
             -can be avoided in 'S' (using up to date frameworks, SQL parameters)
             -can be avoided in 'D' (no passwords on sticky notes, complex passwords)
+
+3 Abstractions for Security Requirements Elicitation

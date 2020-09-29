@@ -1,0 +1,28 @@
+-misuse case = use case for a hacker
+-some misuse cases can occur at a specific time, others can happen anytime (DDoS)
+-use and misuse cases interact with eachother
+    -misuse cases threaten use cases with failure
+    -use cases can mitigate misuse cases
+    -a new use case to mitigate a misuse case can introduce new threats
+-failure mode stuff vs misuse cases?
+    -misuse cases involve an intelligent bad actor?
+    -failure cases are more about acts of god?
+-safety requirement scenarios do not involve human agent
+    -it can be helpful to imagine them this way though
+-exception event = failure mode?
+    -want security functions (anti-lock braking) to handle exception events/failure modes
+-misuse cases can elicit subsystem functions (authentication in a system)
+-use cases can mitigate misuse cases
+-misuse cases threaten use cases
+-security threats come from hostile agents, reliability threats come from randomness
+    -randomness can include bad design, hardwired dependence on system elements
+-misuse cases should focus on simple, fundamental situations that can affect a system
+-there is a relationship between exception cases and the actors that initiate misuse cases
+-generating exception cases = take a use case, ask what can go wrong here?
+-creating misuse cases can be better than simply asking what can go wrong with a use case
+    -your use case is built around a real user so starting with that in order to make a system secure seems like another assumption
+    -adding context around what can go wrong with who might make it go wrong and what might they want to do can get you more specific intent
+-products of misuse cases analysis can help testing
+    -list security threats, failure modes, etc.
+-security at the cost of usabilty comes at the cost of security
+-use and misuse case development happens with a feedback loop and iteratively, like most of software development

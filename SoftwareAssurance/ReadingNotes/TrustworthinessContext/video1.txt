@@ -1,0 +1,35 @@
+first pass
+-we are interested in trying to prove a negative (there are no weaknesses in software)
+-in general you start with your claim (there are no weaknesses)
+    -then add doubts ('unless this condition')
+    -then address doubts ('this condition cannot happen because I checked')
+    -then add doubts to your address ('unless you did not check properly')
+    -iterate based on how sure you need to be
+
+-claims need to be evidence based, something tangible
+-start with your outcomes that you want, what are the goals or claims you want to prove?
+-belief in a claim directly related to how convincing and easy to understand is the presented argument and its supporting evidence
+-structured argument
+    -claim
+    -sub claims that support claims
+    -evidence to support sub claims
+        -evidence should be noun-phrase (needs to be something tangible)
+-software assurance based on eliminative induction
+    -name doubts to an argument
+        -challenge claim
+    -eliminate doubts
+        -name sub claims to eliminate doubts
+    -evaluate argument
+        -try to support sub claims
+        -can you support these sub claims with evidence?
+            -yes = done, associate evidence with sub claims
+            -no = (restart process for this sub claim) introduce doubts to sub claim, eliminate doubts, evaluate argument
+-evidence can be observation or measurement made by qualified expert
+-argument and evidence needed together
+    -argument provides context around meaning of evidence
+    -evidence substantiates argument
+-when talking about a forward looking claim (= risk) we can introduce even more doubts about future states
+-point solution = a bug exists
+    -straightforward to verify, not that interesting
+-snapshot = no bugs exist (right now)
+-continuous assurance = no bugs will ever exist
