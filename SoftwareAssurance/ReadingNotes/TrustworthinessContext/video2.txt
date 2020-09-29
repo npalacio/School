@@ -1,0 +1,32 @@
+first pass
+-top level claim
+    -sub claim = your argument
+        -evidence
+-claim = predicate
+    -{noun-phrase} + {verb} + {value}
+    -{the system} + {has} + {no XSS vulnerabilities} 
+
+-most assurance cases are to try and convince people without any background knowledge of the system (an auditor, etc.)
+-assurance cases are for things that are too complex to fully understand
+    -avoid using for trivial things
+-claim should have a subject and say something about a property of that subject
+-claim should be about an outcome we want for a system (an emergent property?)
+-'the system minimized information disclosure during communication'
+-property that you make your claim about should be non-trivial (emergent?)
+-the value of the property that you want to claim should communicate any related uncertainty
+    -I can only minimize this thing
+        -would be for qualitative properties
+        -The system is acceptably secure
+    -I can make this value be X
+        -would be for quantitative properties
+        -The system has no exploitable SQL injection vulnerabilities
+-verb phrase of claim should be the predicate that describes a critical property of noun phrase, along with that properties value and any related uncertainty
+-context
+    -defines scope of claim
+    -provides a means to check satisfaction of claim
+    -can be external references or definitions
+    -ex: publication from NIST for security considerations for supply chain processes
+-justification
+    -provides rationale for why a claim was made
+    -'this claim is needed because there are reports of threats in this space'
+-sub claims and top level claim should talk about the same entity
