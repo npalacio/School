@@ -1,0 +1,13 @@
+first pass
+-inference rule = branch it off a claim, says that if I can prove this other sub claim then that proves this claim
+
+-gut check on argument
+    -have we identified all relevant sub claims?
+    -is the evidence sufficient and robust?
+    -is the argument strong and logical?
+-assurance increases as doubts are eliminated
+-when trying to find all sub claims
+    -attack claims using rebutting defeater (why claim would be false)
+    -attack evidence (undermining defeater) - why evidence is irrelevant or insufficient
+    -attack inference (undercutting defeater) - why logic of argument is not sound
+-confidence measured by ratio of doubts removed to total doubts (Baconian probability)
