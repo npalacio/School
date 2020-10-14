@@ -1,0 +1,31 @@
+things to have up:
+-what is software assurance
+    -security touchpoints
+-requirements for SSE
+    -slides with problem/abuse frame notations
+-slides with assurance case notations
+
+Notes:
+-companies in OSS
+    -used for non-differentiating technologies
+    -leverage development model
+        -all the benefit for 1/X the development cost
+-SSE, Systems Security Engineering (the framework)
+    -knowing your assets and engineering to protect against their loss are the focal points of systems security engineering
+    -SSE must provide evidence of security
+    -system = set of interacting elements organized to achieve a purpose
+    -stakeholders define the value of an asset in the context of its loss
+    -protection not only implies prevention but: detection, recovery, prediction of asset loss
+    -active protection = explicit security functionality whose behavior satisfies security requirements
+    -passive protection = environment of execution (architecture, design)
+    -Framework
+        -problem context
+            -define security requirements
+        -solution context
+            -solve for security requirements
+        -trustworthiness context
+            -demonstrate that system is adequately secure
+-requirements for SSE
+    -difference between stakeholder (business) requirements and system requirements
+        -stakeholder requirements are typically about the environment
+        -system requirements are about the machine
