@@ -1,0 +1,50 @@
+-produce proposal, defend proposal by May 1st?
+-can turn in proposal early
+-check in every 2 weeks
+-how often to pull in other members of committee?
+-what data to use as a starting point, find data sources, strengths/weaknesses
+-people have changed reporting
+-what pieces of data would I like to visualize
+-who is going to use it, what kind of insights are you going to support?
+-TODO: list of stakeholders, what questions do they have, what insights 
+    -what background knowledge to they have?
+    -what kind of data literacy do these people have?
+-analyze available data, how good is it?
+-read papers about info visualization
+-infoviz conference
+-tableau?
+-project should be motivated by research literature
+    -type of visualization
+-zotero
+-gant chart at end of proposal
+-stuff I got done, questions I have, what to do next?
+    -email to professor before meetings
+
+https://doi.org/10.1109/TVCG.2007.70577
+https://doi-org.leo.lib.unomaha.edu/10.1109/TVCG.2007.70577
+https://boostlabs.com/blog/ibms-many-eyes-online-data-visualization-tool/
+https://dl.acm.org/profile/81100465553
+http://vis.stanford.edu/jheer/bio/
+https://idl.cs.washington.edu/
+http://ieeevis.org/year/2020/welcome
+https://www.cc.gatech.edu/~john.stasko/
+
+
+To Do:
+-read many eyes paper
+-find data sources, analyze
+-think about desired audience of data visualization
+-read papers about info visualization
+
+-id potential datasets
+    -url, rough description
+-think about who would care about something in the datasets
+-get setup in zotero
+
+Real To Do:
+-get setup in GitHub
+    -github board
+-get setup in zotero
+-read visualization papers
+-identify data sources
+-think about audience
