@@ -1,0 +1,14 @@
+Historical weather api: https://openweathermap.org/history
+-not free it doesnt look like
+    -bulk history you pay per location ($10/location)
+-has min/max weather by location
+    -this might make it difficult for viewing on a map?
+-history api
+    -hourly historical data for cities
+    -query by city
+-
+
+NOAA
+-had site to pick locations and export the data but I think I will need an API I can program against unless I just pick one location
+-site looks outdated
+-not a lot of documentation
