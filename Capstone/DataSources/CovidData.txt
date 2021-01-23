@@ -1,0 +1,18 @@
+I think I would want % of covid tests positive by county, city?
+
+Covid tracking project: https://covidtracking.com/data
+-visualization guide: https://covidtracking.com/about-data/visualization-guide
+-can only provide data at state level
+    -I would prefer city/county level
+
+NY Times: https://github.com/nytimes/covid-19-data
+-data is in CSV files on Github that you can download for free
+-has county level data
+-has total confirmed cases and probable cases
+    -some places only report confirmed cases
+-they count cases where patient is treated, not necessarily where they live
+-are cases for a county cumulative in their data or just cases reported on that date?
+    -in state dataset it looks cumulative
+    -documentation says it is cumulative
+        -when a state/county does not show up on a date that means there were 0 new cases/deaths on that day
+    -I think I need to know how many new people were infected daily at the county level, could probably calculate this from their data

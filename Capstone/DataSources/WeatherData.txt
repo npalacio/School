@@ -1,12 +1,19 @@
 Historical weather api: https://openweathermap.org/history
--not free it doesnt look like
+-normally not free but has student access option for free
     -bulk history you pay per location ($10/location)
 -has min/max weather by location
     -this might make it difficult for viewing on a map?
 -history api
     -hourly historical data for cities
     -query by city
--
+    -has min/max temps that are not min/max for the day but temps recorded at the same time in different parts of city
+        -represents the range of temps in the city at moment of calculation
+-history bulk api
+    -can go back 40 years (I think I just need 1-2 years)
+    -provides hourly data
+        -could probably aggregate this on client side
+    -you pick individual locations and checkout
+-I am looking for daily min/max temps by location (city, zip, etx.)
 
 NOAA
 -had site to pick locations and export the data but I think I will need an API I can program against unless I just pick one location

@@ -1,8 +1,11 @@
 Stuff I got done
 -browsed some research papers
 -looking into open weather api
+    -I might have to make this work with a subset of locations that I preselect
+    -emailed them asking what I could get access to for free as a student, I think I need bulk history data
 
 Questions I have
 -Do I have a budget?
+    -Could I build this stuff to run in Azure?
 
 What I will do next
