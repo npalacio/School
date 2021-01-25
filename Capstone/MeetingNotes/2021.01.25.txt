@@ -3,9 +3,51 @@ Stuff I got done
 -looking into open weather api
     -I might have to make this work with a subset of locations that I preselect
     -emailed them asking what I could get access to for free as a student, I think I need bulk history data
+-looking into covid data sources
+    -Covid tracking project (The Atlantic)
+    -NYTimes
 
 Questions I have
 -Do I have a budget?
-    -Could I build this stuff to run in Azure?
+    -Would I be able to use any cloud providers?
+    -GRACA, $5,000, 3-4 page proposal, paid out in summer, first come first serve, might need to be student in fall
+    -dont really have budget for project
+    -could get software licenses I might need
+    -hosting on unomaha.community
+        -can also get DB
+    -AWS student credit
 
 What I will do next
+-look into free could hosting for students
+-get back to finding research papers that solve similar problems
+-additional data sources:
+    -https://coronavirus.jhu.edu/data
+    -http://www.healthdata.org/covid/data-downloads
+-
+
+Meeting notes
+-next couple weeks should scope what I want to do
+-papers
+    -explore different techniques people have used and what are they good for
+    -I have spatial data, temporal data
+        -could find other papers that work with this
+            -epidem.. papers that deal with similar temporal data
+    -help find tools that might be useful
+    -weather/epidemic visualizations
+        -flu?
+-proposal
+    'xyz approach has proven to be useful here...'
+-what is geographical scope of visualization?
+-add policies in locations to visualization
+    -'
+-might want to look at NOAA against
+    -accuweather
+    -weather underground: https://www.wunderground.com/
+-if we really cant get all the locations we want we could pilot with subset of locations
+-most granular covid data is at county level
+    -some counties are large enough that weather might vary significantly
+-can refer to things like
+    -atlantic data visualization guide
+-talk about how what I am doing is different
+    -why is it necessary and novel
+-document different data sources to compare/contrast
