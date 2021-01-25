@@ -48,6 +48,7 @@ Meeting notes
     -some counties are large enough that weather might vary significantly
 -can refer to things like
     -atlantic data visualization guide
+    -other covid visualizations from trusted sources
 -talk about how what I am doing is different
     -why is it necessary and novel
 -document different data sources to compare/contrast
