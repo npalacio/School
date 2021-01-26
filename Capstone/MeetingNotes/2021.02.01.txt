@@ -1,0 +1,12 @@
+Stuff I got done
+-Covid data source comparison
+
+Questions I have
+-If I want a data point that shows how fast the rate that the virus is spreading is changing in an area should I use
+    -change in # of positive tests daily?
+    -cases/X people?
+
+Meeting notes
+
+What I will do next
+-finish covid data source comparison, flesh out weather data source comparison

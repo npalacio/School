@@ -16,3 +16,18 @@ NY Times: https://github.com/nytimes/covid-19-data
     -documentation says it is cumulative
         -when a state/county does not show up on a date that means there were 0 new cases/deaths on that day
     -I think I need to know how many new people were infected daily at the county level, could probably calculate this from their data
+
+John Hopkins: https://coronavirus.jhu.edu/data
+-says they use Covid Tracking Project and their own repo
+    -repo: https://github.com/CSSEGISandData/COVID-19
+        -this has daily counts of confirmed cases and deaths reported at county level
+        -has files broken out by day as well
+            -every locations counts for just this day
+
+CDC: https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days
+-has anonymous patient records but no location with them
+-has restricted dataset with county of patients, have to apply for access: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t
+    -9. All publications and/or presentations using the restricted access data must include the following disclaimer: "The CDC does not take responsibility for the scientific validity or accuracy of methodology, results, statistical analyses, or conclusions presented."
+    -10. For oral or written presentations or publications, the source of the data must be attributed to the CDC: “Centers for Disease Control and Prevention, COVID-19 Response. COVID-19 Case Surveillance Data Access, Summary, and Limitations (version date)" (Please check the GitHub project to include the version date of the dataset that you used for the publication.)
+-thinking I would use this dataset as a last resort, I dont really need individual patient records, just rolled up to county level
+
