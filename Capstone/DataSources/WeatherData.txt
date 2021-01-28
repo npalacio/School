@@ -15,7 +15,15 @@ Historical weather api: https://openweathermap.org/history
     -you pick individual locations and checkout
 -I am looking for daily min/max temps by location (city, zip, etx.)
 
-NOAA
--had site to pick locations and export the data but I think I will need an API I can program against unless I just pick one location
--site looks outdated
--not a lot of documentation
+NOAA: https://www.ncdc.noaa.gov/cdo-web/datasets
+-has API that provides daily weather data from a 'station'
+-had to request token that was emailed to me with rate limits on requests
+    -5 requests/second
+    -10,000 requests/day
+-API seems to have a bit of a learning curve
+-Daily summaries dataset seems to have what I want (temp/precip)
+-many ways to specify location you want to work with
+    -weather station name
+    -zip
+-this looks like what I need, previously I had visited their v1 api page that was very outdated
+-a lot of documentation

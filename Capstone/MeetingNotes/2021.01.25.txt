@@ -23,6 +23,7 @@ What I will do next
 -additional data sources:
     -https://coronavirus.jhu.edu/data
     -http://www.healthdata.org/covid/data-downloads
+        -only has data by state
 -
 
 Meeting notes

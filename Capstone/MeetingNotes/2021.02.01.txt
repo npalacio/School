@@ -1,5 +1,7 @@
 Stuff I got done
 -Covid data source comparison
+-Got setup with a few NOAA api calls, explored API
+    -This API looks like what I want (historical daily weather data points: temp, precip, tons of others)
 
 Questions I have
 -If I want a data point that shows how fast the rate that the virus is spreading is changing in an area should I use
@@ -9,4 +11,3 @@ Questions I have
 Meeting notes
 
 What I will do next
--finish covid data source comparison, flesh out weather data source comparison
