@@ -1,2 +1,3 @@
 -explore NOAA more
+    -could not hit api sunday morning
 -look at how other people have visualized covid and weather data

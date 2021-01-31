@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "c4d0c25f-fac9-4f93-9965-347bde429834",
+		"name": "Capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather",
+			"item": [
+				{
+					"name": "NOAA",
+					"item": [
+						{
+							"name": "Datasets",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datasets"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Datatypes",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datasets"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Data - Daily Summaries",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datasets"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

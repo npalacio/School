@@ -27,3 +27,9 @@ NOAA: https://www.ncdc.noaa.gov/cdo-web/datasets
     -zip
 -this looks like what I need, previously I had visited their v1 api page that was very outdated
 -a lot of documentation
+-can't seem to get to their site or hit their API on sunday morning
+
+Weather Underground: https://www.wunderground.com/
+-found a post saying their free weather api is no longer available
+-cant find any API on their site
+-seemed to have removed a download feature that was in UI before
