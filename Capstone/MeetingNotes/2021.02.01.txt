@@ -1,0 +1,16 @@
+Stuff I got done
+-Covid data source comparison
+-Got setup with a few NOAA api calls, explored API and got postman collection in source control
+    -This API looks like what I want (historical daily weather data points: temp, precip, tons of others)
+-Azure has free student offering: https://azure.microsoft.com/en-us/free/students/
+    -looks like it has everything I might need
+-Found some GIS Visualization papers with useful tips/info, tooks notes in Zotero
+
+Questions I have
+-If I want a data point that shows how fast the rate that the virus is spreading is changing in an area should I use
+    -change in # of positive tests daily?
+    -cases/X people?
+
+Meeting notes
+
+What I will do next
