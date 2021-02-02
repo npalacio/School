@@ -14,3 +14,7 @@ Questions I have
 Meeting notes
 
 What I will do next
+-Continue to flesh out some of those NOAA api calls
+    -Their service/website was down sunday morning but is now back up
+-Continue to read research papers that deal with similar data visualizations to what I want to do (epidemic data, weather data)
+-Now that I think I have data sources almost nailed down I might take a stab at defining the purpose and audience of the visualization I want to do
