@@ -1,0 +1,14 @@
+Liberapay
+-liked: I liked the project you picked, seems like it has a cool purpose that can help non profits
+-improve: N/A
+-question: How do they ensure anonymity when donating from a security perspective?
+
+Spring security
+-liked: I like the project you picked given how widely used Spring is, seems very relevant
+-improve: Would have liked to hear more about how well Spring handles the threats generated from the MTM tool   
+-question: Does spring security allow for MFA?
+
+Croc
+-liked: CWE checklist from manual code review made a lot of sense, good findings
+-improve: Could not hear part of presentation very well
+-question: Seems like there were some pretty big security concerns (lack of secure logging, logging sensitive data), would you all actually recommend using Croc given your findings?
