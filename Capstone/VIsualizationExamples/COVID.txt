@@ -1,0 +1,8 @@
+John Hopkins: https://coronavirus.jhu.edu/data
+-Timeline by state showing confirmed cases
+    -includes markers for policy changes
+-US Map
+    -has additional widgets displaying tabular data
+    -can click on county and get popup with link to more info
+        -page has additional charts
+    -kinda slow
