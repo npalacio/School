@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c4d0c25f-fac9-4f93-9965-347bde429834",
+		"_postman_id": "83deaad6-5a6c-4266-a5a9-aed5a5e73e66",
 		"name": "Capstone",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -12,18 +12,12 @@
 					"name": "NOAA",
 					"item": [
 						{
-							"name": "Datasets",
+							"name": "Data - Daily Summaries",
 							"request": {
 								"method": "GET",
-								"header": [
-									{
-										"key": "token",
-										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
-										"type": "text"
-									}
-								],
+								"header": [],
 								"url": {
-									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/data?datasetid=GHCND&startdate={{noaa:startDate}}&enddate={{noaa:today}}&locationid={{noaa:locationId:fips:NE:douglas}}&datatypeid={{noaa:dataType:temperature}}&limit=400",
 									"protocol": "https",
 									"host": [
 										"www",
@@ -35,7 +29,33 @@
 										"cdo-web",
 										"api",
 										"v2",
-										"datasets"
+										"data"
+									],
+									"query": [
+										{
+											"key": "datasetid",
+											"value": "GHCND"
+										},
+										{
+											"key": "startdate",
+											"value": "{{noaa:startDate}}"
+										},
+										{
+											"key": "enddate",
+											"value": "{{noaa:today}}"
+										},
+										{
+											"key": "locationid",
+											"value": "{{noaa:locationId:fips:NE:douglas}}"
+										},
+										{
+											"key": "datatypeid",
+											"value": "{{noaa:dataType:temperature}}"
+										},
+										{
+											"key": "limit",
+											"value": "400"
+										}
 									]
 								}
 							},
@@ -45,13 +65,130 @@
 							"name": "Datatypes",
 							"request": {
 								"method": "GET",
-								"header": [
-									{
-										"key": "token",
-										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
-										"type": "text"
-									}
-								],
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datatypes?locationid={{noaa:locationId:fips:NE:douglas}}&limit=200&datacategoryid={{noaa:dataCategory:temperature}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datatypes"
+									],
+									"query": [
+										{
+											"key": "locationid",
+											"value": "{{noaa:locationId:fips:NE:douglas}}"
+										},
+										{
+											"key": "limit",
+											"value": "200"
+										},
+										{
+											"key": "datacategoryid",
+											"value": "{{noaa:dataCategory:temperature}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Datatype",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datatypes/TOBS",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datatypes",
+										"TOBS"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Locations",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?locationcategoryid=CITY",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"locations"
+									],
+									"query": [
+										{
+											"key": "locationcategoryid",
+											"value": "CITY"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Locations - Daily Summaries",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid={{noaa:datasetId:dailySummaries}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"locations"
+									],
+									"query": [
+										{
+											"key": "datasetid",
+											"value": "{{noaa:datasetId:dailySummaries}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Datasets",
+							"request": {
+								"method": "GET",
+								"header": [],
 								"url": {
 									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
 									"protocol": "https",
@@ -72,18 +209,12 @@
 							"response": []
 						},
 						{
-							"name": "Data - Daily Summaries",
+							"name": "Stations",
 							"request": {
 								"method": "GET",
-								"header": [
-									{
-										"key": "token",
-										"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
-										"type": "text"
-									}
-								],
+								"header": [],
 								"url": {
-									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets",
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/stations?datasetid={{noaa:datasetId:dailySummaries}}&locationid={{noaa:locationId:fips:NE:douglas}}",
 									"protocol": "https",
 									"host": [
 										"www",
@@ -95,15 +226,190 @@
 										"cdo-web",
 										"api",
 										"v2",
-										"datasets"
+										"stations"
+									],
+									"query": [
+										{
+											"key": "datasetid",
+											"value": "{{noaa:datasetId:dailySummaries}}"
+										},
+										{
+											"key": "locationid",
+											"value": "{{noaa:locationId:fips:NE:douglas}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Station",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/stations/GHCND:USC00258795",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"stations",
+										"GHCND:USC00258795"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Location Categories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/locationcategories",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"locationcategories"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Data Categories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories?locationid={{noaa:locationId:fips:NE:douglas}}&limit=200",
+									"protocol": "https",
+									"host": [
+										"www",
+										"ncdc",
+										"noaa",
+										"gov"
+									],
+									"path": [
+										"cdo-web",
+										"api",
+										"v2",
+										"datacategories"
+									],
+									"query": [
+										{
+											"key": "locationid",
+											"value": "{{noaa:locationId:fips:NE:douglas}}"
+										},
+										{
+											"key": "limit",
+											"value": "200"
+										}
 									]
 								}
 							},
 							"response": []
 						}
+					],
+					"auth": {
+						"type": "apikey",
+						"apikey": [
+							{
+								"key": "value",
+								"value": "iqTnwHGVnaBUNegIxzVuoDKIXfrfqsBp",
+								"type": "string"
+							},
+							{
+								"key": "key",
+								"value": "token",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
 					]
 				}
 			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"const moment = require('moment');",
+					"pm.collectionVariables.set(\"noaa:today\", moment().format(\"YYYY-MM-DD\"));"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "noaa:datasetId:dailySummaries",
+			"value": "GHCND"
+		},
+		{
+			"key": "noaa:locationId:fips:NE:douglas",
+			"value": "FIPS:31055"
+		},
+		{
+			"key": "noaa:dataCategory:temperature",
+			"value": "TEMP"
+		},
+		{
+			"key": "noaa:dataType:temperature",
+			"value": "TOBS"
+		},
+		{
+			"key": "noaa:startDate",
+			"value": "2020-02-01"
+		},
+		{
+			"key": "noaa:today",
+			"value": "2021-02-02"
 		}
 	]
 }

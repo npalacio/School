@@ -28,6 +28,12 @@ NOAA: https://www.ncdc.noaa.gov/cdo-web/datasets
 -this looks like what I need, previously I had visited their v1 api page that was very outdated
 -a lot of documentation
 -can't seem to get to their site or hit their API on sunday morning
+-cities and counties can have many weather stations
+    -I think I can get more granular than county for weather but COVID data is only at county level
+-stations are most granular, locations are counties/cities
+    -what does it return me when I query for a location
+-location categories = county, zip, state
+-data categories = temperature, pressure
 
 Weather Underground: https://www.wunderground.com/
 -found a post saying their free weather api is no longer available

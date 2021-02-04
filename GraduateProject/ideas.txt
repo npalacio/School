@@ -1,0 +1,7 @@
+-Covid cases by economic activity in a region? (https://covidtracking.com/data/api)
+    -layer on policies by govt?
+    -layer on weather to view correlations? (https://openweathermap.org/apis)
+
+-Project
+    -visualizing covid-19 infection rates spatially
+    -visualize along with things like weather, govt restrictions/lockdowns, economic activity
