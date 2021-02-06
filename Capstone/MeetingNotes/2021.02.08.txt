@@ -1,6 +1,10 @@
 Stuff I got done
+-learning more about NOAA API
+    -trying to get call that returns daily min/max/avg temp for a given location and date range
+        -not as simple as I thought lol
 
 Questions I have
+-data quality might be an issue with NOAA api
 
 Meeting notes
 

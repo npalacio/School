@@ -34,6 +34,16 @@ NOAA: https://www.ncdc.noaa.gov/cdo-web/datasets
     -what does it return me when I query for a location
 -location categories = county, zip, state
 -data categories = temperature, pressure
+-you can get down to the level of an individual weather station
+-not all weather stations report the same types of data (temp, precip, etc.)
+-depending on your parameters, some calls can take a while
+-was trying to get daily temp data for douglas county for a small date range in 2020 and got some wild numbers that don't seem right
+-search tool is very helpful
+-Omaha has 122 weather stations, Douglas county NE has 61
+-their documentation talks about how this API exposes data from many different sources
+-ordered data through their UI and can see that some stations have better looking data
+    -not sure how I would find this out dynamically?
+
 
 Weather Underground: https://www.wunderground.com/
 -found a post saying their free weather api is no longer available

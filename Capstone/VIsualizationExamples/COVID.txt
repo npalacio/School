@@ -6,3 +6,7 @@ John Hopkins: https://coronavirus.jhu.edu/data
     -can click on county and get popup with link to more info
         -page has additional charts
     -kinda slow
+
+COVID Tracking Project: https://covidtracking.com/data/charts
+-they use 7 day rolling average for new case changes
+-have one visualization that makes the US look like a periodic table, every state same size, roughly in the right spot
