@@ -2,10 +2,38 @@ Stuff I got done
 -learning more about NOAA API
     -trying to get call that returns daily min/max/avg temp for a given location and date range
         -not as simple as I thought lol
+-took a look at some existing COVID data visualizations
+-started looking at research for weather data visualizations
 
 Questions I have
--data quality might be an issue with NOAA api
+-Data quality might be an issue with NOAA api, thinking about if I should simplify down to a few locations for initial proposal
+-When roughly should I be submitting a proposal?
+    -before end of summer, defend proposal during finals week
+        -committee needs draft 2 weeks before defense
+            -early april
+    -defend week before dead week
+    -only hard rule: has to be done before enrolling for summer
+
 
 Meeting notes
+-running averages for weather and covid data
+    -3-7 day running average
+-the day that someone tested positive is not the day they were infected
+-Could I only use weather stations at airports?
+    -Filter by converage
+-If someone were using this tool and we can't find data where they look then we could just display a message
+-What visualizations exist for the seasonal flu?
+    -does the same visualization show different trends for Covid than for flu?
+-pick a location and build visualization in excel quick
+    -7 day averages
+
 
 What I will do next
+-Want to end up with spreadsheet: Location (Omaha, Douglas, etc.), Date, Min temp, max temp
+    -See if weather stations at airports are consistently good (data wise)
+-Continue to find weather visualizations
+-start thinking about text
+    -think about motivation, why do we need another covid visualization?
+    -how do you differentiate between things that happen (holidays) and colder weather
+    -exploratory tool for everyday people to poke around in?
+-POC: visualization in excel
