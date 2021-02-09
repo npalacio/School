@@ -1,0 +1,13 @@
+Title
+
+Abstract
+
+Introduction
+-Describe pandemic
+    -starting dates
+    -infection numbers
+        -surges happen
+
+Related Work
+
+My Proposed Visualization
