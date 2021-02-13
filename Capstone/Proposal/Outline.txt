@@ -3,11 +3,21 @@ Title
 Abstract
 
 Introduction
--Describe pandemic
-    -starting dates
-    -infection numbers
-        -surges happen
-
-Related Work
-
-My Proposed Visualization
+-The COVID-19 pandemic has affected almost the entire world
+-It started spreading as early as November 2019 (cite something)
+-The US reported its first case XX/XX/XXXX (cite something)
+-Since then the US has experience several waves of increased infection rates that has varied in severity across the country (cite something)
+-The way the virus spreads is known (droplets, close contact, etc.) (cite something)
+-The virus is known to spread more easily indoors
+-People spend more time indoors when the weather is colder
+    -Am I going to find a citation for something like this?
+-One could hypothesize that when the weather gets colder and people spend more time indoors the virus would spread more
+-There are many different factors that can affect COVID-19 infection rates
+-My project aims to explore the relationship between weather and COVID-19 infection rates throughout the US
+-My intended Audience
+    -public?
+        -I am not sure the public would necessarily care to hear about how weather affects COVID-19 infection rates
+        -Could make them more aware that when the weather changes and they are spending more time inside they should be more cautious
+    -public officials
+        -It would be useful to policy makers if they knew that a change in weather was coming that they knew would (or would not) drive infection rates
+            -Could influence their policy decisions
