@@ -1,0 +1,16 @@
+Stuff I got done
+-POC in excel
+    -little bit of learning curve
+    -realizing that my current line chart with both datasets might not work because both have different ranges of values so plotting them together like I have seems wrong
+    -just did temp for now, could also explore humidity?
+-worked on proposal outline
+
+Questions I have
+-how to visualize these datasets in POC?
+-what if we find that weather does not appear to have an effect?
+    -Is visualization still worth building?
+
+Meeting notes
+
+
+What I will do next
