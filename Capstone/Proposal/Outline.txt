@@ -21,3 +21,5 @@ Introduction
     -public officials
         -It would be useful to policy makers if they knew that a change in weather was coming that they knew would (or would not) drive infection rates
             -Could influence their policy decisions
+-from another paper: 'Better epidemic predictions would set up more appropriate public health prevention and intervention strategies.'
+    -see Zotero notes on 'Quantifying role of weather...'

@@ -1,3 +1,3 @@
--setup NOAA API call to get you daily min/max temps for Omaha in Jan
--look at how other people have visualized covid and weather data
--define the data you have now (constraints) then try to define audience/purpose of visualization
+-find more flu (or any epidemic) and weather papers
+-look at cdc flu visualization
+-find other flu and weather visualizations
