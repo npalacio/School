@@ -3,6 +3,7 @@ Stuff I got done
     -little bit of learning curve
     -realizing that my current line chart with both datasets might not work because both have different ranges of values so plotting them together like I have seems wrong
     -just did temp for now, could also explore humidity?
+    -I wonder if the drop in temperature only matters when it crosses threshold of nice to be outside (~60-70 deg F)
 -worked on proposal outline
 
 Questions I have
@@ -11,6 +12,16 @@ Questions I have
     -Is visualization still worth building?
 
 Meeting notes
-
+-what is the correlation between normal flu and temperature?
+-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881007/
+    -flu and weather
+-mobility data
+-tool should let people explore these different variables
+-http://www.gamesforchange.org/game/darfur-is-dying/
+-what about population density?
+    -nomalize new covid case count, would see higher rate in densely populated areas
+-could compare against flu
+-how would we get policy data
 
 What I will do next
+-look at flu/weather paper and look at others 
