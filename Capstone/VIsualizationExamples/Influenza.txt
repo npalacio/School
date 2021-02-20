@@ -1,3 +1,6 @@
 CDC: https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html
 -flu surveillance
 -toolbar at top 
+-they have tooltips on charts
+
+Theraflu

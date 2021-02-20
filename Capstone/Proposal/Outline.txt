@@ -13,6 +13,7 @@ Introduction
     -Am I going to find a citation for something like this?
 -One could hypothesize that when the weather gets colder and people spend more time indoors the virus would spread more
 -There are many different factors that can affect COVID-19 infection rates
+-We know that weather affects seasonal influenza rates (cite papers)
 -My project aims to explore the relationship between weather and COVID-19 infection rates throughout the US
 -My intended Audience
     -public?

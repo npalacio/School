@@ -49,3 +49,17 @@ Weather Underground: https://www.wunderground.com/
 -found a post saying their free weather api is no longer available
 -cant find any API on their site
 -seemed to have removed a download feature that was in UI before
+
+WeatherSource: https://weathersource.com/covid-19/
+-they opened up paid API for covid-19 researchers
+-signed up for 30 day trial, sent email asking for extension
+-they have a postman collection available to download
+-very good documentation
+-data is quality checked and corrected
+-seems to be pretty fast even when fetching an entire year of history
+-can give json or csv data
+-can query by zip code or lat/long
+    -lat/long not available to free trial, need them to upgrade me
+-would need to get lat/long of county to query weather data
+-ESRI county data: https://nick-palacio.maps.arcgis.com/home/item.html?id=7566e0221e5646f99ea249a197116605
+    -gives polygons, might need to compute centroids to get lat/longs
