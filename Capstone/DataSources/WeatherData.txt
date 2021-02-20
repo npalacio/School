@@ -63,3 +63,4 @@ WeatherSource: https://weathersource.com/covid-19/
 -would need to get lat/long of county to query weather data
 -ESRI county data: https://nick-palacio.maps.arcgis.com/home/item.html?id=7566e0221e5646f99ea249a197116605
     -gives polygons, might need to compute centroids to get lat/longs
+        -ESRI JS library has this functionality
