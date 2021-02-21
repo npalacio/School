@@ -1,11 +1,14 @@
 Stuff I got done
--read flu and weather paper
+-read flu and weather papers
     -got some ideas for how my data should be prepped
     -one difference with the flu is they have years of data to compare against, we have 1
     -these papers I am finding are doing intensive statistical analysis to demonstrate a relationship between weather and flu, I want to build a visualization
         -I think I can use these papers to get an idea of how to prepare my data
--thinking I might want to roll up cases and temp data to weekly averages
-    -also might want to introduce lag where weather from previous week is compared to infections from this week
+    -given these papers I think I should:
+        -introduce a 1 week lag between my weather and covid data
+        -start with temperature, absolute humidity and change in temperature
+        -roll up cases and temp data to weekly averages
+            -work with weeks and not days
 -looked at flu visualizations
     -cdc
 -WeatherSource for weather data
