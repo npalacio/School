@@ -6,7 +6,7 @@ Introduction
 -The COVID-19 pandemic has affected almost the entire world
 -It started spreading as early as November 2019 (cite something)
 -The US reported its first case XX/XX/XXXX (cite something)
--Since then the US has experience several waves of increased infection rates that has varied in severity across the country (cite something)
+-Since then the US has experienced several waves of increased infection rates that has varied in severity across the country (cite something)
 -The way the virus spreads is known (droplets, close contact, etc.) (cite something)
 -The virus is known to spread more easily indoors
 -People spend more time indoors when the weather is colder
