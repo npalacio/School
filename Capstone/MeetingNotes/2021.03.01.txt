@@ -1,7 +1,10 @@
 Stuff I got done
+-worked on proposal intro (background and motivation) and related work
 
 Questions I have
+-can I sign that doc with weather source?
 -is there a template for my proposal document I should follow?
+-wondering how specific I need to be in my project proposal?
 
 Meeting notes
 

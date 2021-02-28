@@ -6,6 +6,9 @@ John Hopkins: https://coronavirus.jhu.edu/data
     -can click on county and get popup with link to more info
         -page has additional charts
     -kinda slow
+-https://coronavirus.jhu.edu/data/state-timeline
+    -How to read this graphic button?
+    -have points in time for policy decisions
 
 COVID Tracking Project: https://covidtracking.com/data/charts
 -they use 7 day rolling average for new case changes
