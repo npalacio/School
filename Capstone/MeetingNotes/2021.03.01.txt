@@ -7,5 +7,28 @@ Questions I have
 -wondering how specific I need to be in my project proposal?
 
 Meeting notes
+-make sure weather source knows I am not signing on behalf of university
+    -should only be signing on behalf of myself
+-leaning towards sending complete sections of proposal for review
+    -send in word
+-proposal
+    -I have a motivating question and a plan for investigating
+    -mockups of UI would not hurt
+        -ex: want to communicate an interaction technique based on literature
+        -story board for how it would work
+    -'If I do this, is it likely to succeed'
+    -template:
+        -no strict policy on format
+            -APA citations?
+        -sections: intro, related work, method/approach (what it is, how it works, data sources, techniques to visualize), proposed design,
+        timeline for deliverables (Gant chart)
+-word plugin for Zotero?
+    -https://www.zotero.org/support/word_processor_integration
 
 What I will do next
+-outline for sections
+    -related work
+        -influenze
+        -weather on covid potential impact
+        -public awareness
+            -talk about audience and best way to format their info
