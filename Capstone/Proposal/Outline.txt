@@ -50,5 +50,8 @@ Methods
                 -average weekly absolute humidity? average weekly relative humidity? Would need another axis for these. Should I plot these in separate charts?
         -covid data on y2
             -average weekly infection rate (new infections per week)
-            
+        -just start with first day of range, for every 7 days:
+            -sum up daily new infections = new infections that week
+                -or should I calculate average infections/day for that week?
+            -calculate average temperature for that week
         
