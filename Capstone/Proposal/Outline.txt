@@ -42,3 +42,13 @@ Methods
 -data preparation
     -can calculate new daily infections by county
     -weather data can be queried by lat/long using centroid of US counties
+    -Inputs: US county, begin date, end date
+    -Output:
+        -chart with time on x-axis
+        -weather data on y1 (with 1 week lag)
+            -average weekly temperature
+                -average weekly absolute humidity? average weekly relative humidity? Would need another axis for these. Should I plot these in separate charts?
+        -covid data on y2
+            -average weekly infection rate (new infections per week)
+            
+        
