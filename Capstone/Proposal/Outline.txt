@@ -24,3 +24,21 @@ Introduction
             -Could influence their policy decisions
 -from another paper: 'Better epidemic predictions would set up more appropriate public health prevention and intervention strategies.'
     -see Zotero notes on 'Quantifying role of weather...'
+
+Methods
+-it is a web app
+    -accessible to everyone
+-it is map based (location centric)
+    -the effect of weather could vary based on the area of interest
+-data sources
+    -COVID: NY Times
+        -hosted on GitHub
+        -CSV format
+        -has cumulative COVID infections by county for US
+    -Weather: Weather source
+        -paid API
+            -free access to researchers looking into weather and COVID
+        -can view daily, hourly weather history by ZIP code or lat/long
+-data preparation
+    -can calculate new daily infections by county
+    -weather data can be queried by lat/long using centroid of US counties
