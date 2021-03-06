@@ -2,11 +2,12 @@ Stuff I got done
 -working on methods section
     -figuring out specifics of UI
     -made simple wireframe
-    -kind of struggling
+        -https://lucid.app/lucidchart/invitations/accept/c2da465a-5148-472f-8017-5d0a079f9075
+    -kind of struggling (questions in outline.txt)
 
 Questions I have
 -review intro/related work so far
--trying to fiugre out visualization, thinking about 
+-trying to fiugre out visualization details
 
 Meeting notes
 

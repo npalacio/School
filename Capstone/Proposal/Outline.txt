@@ -60,7 +60,7 @@ Methods
         -average relative humidity temperature = (relHumDay1 + relHumDay2 + ... + relHumDay7)/7
         -weekly relative variation of temp = avgWeeklyTempWeek2 - avgWeeklyTempWeek1
         -weekly absolute variation of temp = |avgWeeklyTempWeek2 - avgWeeklyTempWeek1|
-        -average weekly new daily infections = (newInfectionsDay1 + newInfectionsDay2 + ... + newInfectionsDay7)/7
+        -average weekly infections = (newInfectionsDay1 + newInfectionsDay2 + ... + newInfectionsDay7)/7
 -data visualization
     -core pieces:
         -a map where a user can pick a county of interest
@@ -80,3 +80,5 @@ Methods
             -Current best idea is separate charts because these data points all have different scales
             -Charts could share user interactions
                 -user hovers on 1 and tooltip shows on all of them?
+        -Could only show charts once a county is selected
+            -seems like a nice to have?
