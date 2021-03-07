@@ -8,6 +8,7 @@ Stuff I got done
 Questions I have
 -review intro/related work so far
 -trying to fiugre out visualization details
+-how to cite Weather Source API
 
 Meeting notes
 
