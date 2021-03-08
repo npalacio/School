@@ -11,5 +11,46 @@ Questions I have
 -how to cite Weather Source API
 
 Meeting notes
+-fine to use CDC website
+    -citation: AJMC citation is good, cite CDC one the same way
+-intro review
+    -need more details on what visualization is
+    -find supporting citations for who is saying weather could be a factor
+    -3rd paragraph - elaborate on who is saying weather can play a role
+        -could mention UV rays, relationship with influenz
+    -elaborate more on why weather?
+    -need some framing around target Audience
+        -public policy goal?
+        -why does this matter to the audience
+    -in related work visualizations
+        -show some examples (figures)
+        -compare/contrast existing visualizations
+            -think about dimensions of visualizations
+            -snapshot data vs time series
+            -spatial vs not
+            -data points
+            -'can view this and this together'
+                -plot things together
+            -how granular are they?
+        -purpose
+            -overview of state of the art
+            -id opps for future work
+            -help understand my work
+            -can talk about what dimensions I want in my project
+            -help justify design decisions in my visualization
+-potential use case for visualization
+    -middle school science kids exploring weather and epidemiology
+    -an inquiry tool to be used in a classroom with a teacher
+    -why is weather important to kids
+    -build a tool to let kids be scientists to investigate a hypothesis
+    -kids could be responsible for 
+    -what do existing kids visualizations look like
+    -existing covid visualizations are not intended for kids
+    -compare counties to see population density difference
+    -make things configure
+    -https://cdn.education.ne.gov/wp-content/uploads/2017/10/Nebraska_Science_Standards_Final_10_23.pdf
+-lattimer square
 
 What I will do next
+-update CDC citation to match AJMC
+-do not abbreviate AJMC in citation
