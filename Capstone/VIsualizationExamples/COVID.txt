@@ -6,6 +6,7 @@ John Hopkins: https://coronavirus.jhu.edu/data
     -can click on county and get popup with link to more info
         -page has additional charts
     -kinda slow
+    -other widgets are not in sync with map selection
 -https://coronavirus.jhu.edu/data/state-timeline
     -How to read this graphic button?
     -have points in time for policy decisions
@@ -13,3 +14,13 @@ John Hopkins: https://coronavirus.jhu.edu/data
 COVID Tracking Project: https://covidtracking.com/data/charts
 -they use 7 day rolling average for new case changes
 -have one visualization that makes the US look like a periodic table, every state same size, roughly in the right spot
+
+University of Washington: https://covid19.healthdata.org/global?view=total-deaths&tab=trend
+-
+
+Features to compare:
+-has a map
+-does it let you compare locations
+-how granular
+-what data points/charts (cases, deaths, hospitalizations, policies)
+-how configurable are charts

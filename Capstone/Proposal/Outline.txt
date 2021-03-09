@@ -3,27 +3,25 @@ Title
 Abstract
 
 Introduction
--The COVID-19 pandemic has affected almost the entire world
--It started spreading as early as November 2019 (cite something)
--The US reported its first case XX/XX/XXXX (cite something)
--Since then the US has experienced several waves of increased infection rates that has varied in severity across the country (cite something)
--The way the virus spreads is known (droplets, close contact, etc.) (cite something)
--The virus is known to spread more easily indoors
--People spend more time indoors when the weather is colder
-    -Am I going to find a citation for something like this?
--One could hypothesize that when the weather gets colder and people spend more time indoors the virus would spread more
--There are many different factors that can affect COVID-19 infection rates
--We know that weather affects seasonal influenza rates (cite papers)
--My project aims to explore the relationship between weather and COVID-19 infection rates throughout the US
--My intended Audience
-    -public?
-        -I am not sure the public would necessarily care to hear about how weather affects COVID-19 infection rates
-        -Could make them more aware that when the weather changes and they are spending more time inside they should be more cautious
-    -public officials
-        -It would be useful to policy makers if they knew that a change in weather was coming that they knew would (or would not) drive infection rates
-            -Could influence their policy decisions
--from another paper: 'Better epidemic predictions would set up more appropriate public health prevention and intervention strategies.'
-    -see Zotero notes on 'Quantifying role of weather...'
+-COVID timeline
+-How it spreads
+-People have said weather could play a factor by driving people inside
+    -need quotes from 'people'
+    -mention influenza's link to weather
+-Describe project
+    -map based web app with visualizations for COVID and weather together
+    -intended audience: Middle school scientists
+    -Purpose: Allow students to investigate weather's role in COVID-19 transmission by interacting with a visualization tool
+        -Kids would be able to link what they are learning in school to what is happening in the world today
+    -Features:
+        -allow users to input location (county), date range and what charts they would like to see
+            -Charts would share the input date range
+        -allow users to input lag between weather and covid data
+            -this would represent incubation period of virus
+        -What other configurable things should there be about the visualization?
+
+Related work
+-See covid visualization examples
 
 Methods
 -it is a web app
