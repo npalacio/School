@@ -4,6 +4,11 @@ Questions I have
 -how to cite NE school standards?
 -would I need to explain temperature and humidity given the audience?
 -do I need to write up what the activity would be?
+-I dont really know when to get into the details of my visualization, specifically:
+    -what are the features? How specific do I get and when?
+        -Should I show a mockup or visual in intro of what the project is?
+    -intended audience
+-how to cite Weather Source API
 
 Meeting notes
 

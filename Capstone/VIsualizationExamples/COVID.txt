@@ -1,26 +1,68 @@
 John Hopkins: https://coronavirus.jhu.edu/data
--Timeline by state showing confirmed cases
-    -includes markers for policy changes
--US Map
-    -has additional widgets displaying tabular data
-    -can click on county and get popup with link to more info
-        -page has additional charts
-    -kinda slow
-    -other widgets are not in sync with map selection
--https://coronavirus.jhu.edu/data/state-timeline
-    -How to read this graphic button?
-    -have points in time for policy decisions
+-has a map
+    -a US map that lets you change data point that symbolizes counties
+-does it let you compare data from different locations
+    -US map is symbolized by county for each data point
+    -a cartogram by state that compares confirmed cases for each state
+-how granular is location data
+    -county level
+-what data points/charts (cases, deaths, hospitalizations, policies)
+    -confirmed cases
+    -local policies enacted
+    -deaths
+    -tests
+    -hospital use
+-are charts linked?
+    -no linked charts
+-how configurable are charts
+    -some let you toggle the data point used in chart
+    -let you toggle between US data and an individual state's data
+
 
 COVID Tracking Project: https://covidtracking.com/data/charts
--they use 7 day rolling average for new case changes
--have one visualization that makes the US look like a periodic table, every state same size, roughly in the right spot
+-has a map
+    -one map that shows how many people currently hospitalized in each state
+    -a few cartograms
+-does it let you compare data from different locations
+    -yes, on chart lets you compare states daily infections and current hospitalizations
+-how granular is location data
+    -US and state level data
+-what data points/charts (cases, deaths, hospitalizations, policies)
+    -tests
+    -confirmed cases
+    -hospital use
+    -deaths
+-are charts linked?
+    -when multiple charts shown they share the date range and if data is per million or not
+-how configurable are charts
+    -can change date range
+    -can normalize data or not
 
 University of Washington: https://covid19.healthdata.org/global?view=total-deaths&tab=trend
--
+-has a map
+    -yes
+        -each data point allows you to view a chart or a map symbolized on that data point
+-does it let you compare data from different locations
+    -yes, for each data point
+-how granular is location data
+    -state level data
+-what data points/charts (cases, deaths, hospitalizations, policies)
+    -total deaths
+    -daily deaths
+    -hospital use
+    -estimated infections
+    -confirmed infections
+    -# of tests
+-are charts linked?
+    -initially set to same date range but each chart has its own settings
+-how configurable are charts
+    -can set date range, normalize data by population, smooth data out, turn on uncertainty
 
 Features to compare:
 -has a map
--does it let you compare locations
+-does it let you compare data from different locations
 -how granular is location data
 -what data points/charts (cases, deaths, hospitalizations, policies)
+-are charts linked?
 -how configurable are charts
+
