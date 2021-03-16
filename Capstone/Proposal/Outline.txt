@@ -5,9 +5,16 @@ Abstract
 Introduction
 -COVID timeline
 -How it spreads
--People have said weather could play a factor by driving people inside
-    -need quotes from 'people'
-    -mention influenza's link to weather
+-Why weather
+    -There is precedence to think that the COVID-19 virus spreads more easily in colder, dryer weather.
+        -It is well established that influenza spread is influenced by the weather.
+        -Specifically, temperature, humidity and daily variation of both of these have been found to have a significant impact on influenza infection rates
+        -While the coronavirus is certainly not the same thing as the flu it does spread in a very similar manner. This alone makes the relationship between COVID-19 transmission and the weather worth exploring.
+    -There has been some research published already exploring the relationship between weather and COVID. However, results from these studies have been mixed.
+        -One literature review published in the International Journal of Environmental Research and Public health analyzed the current available literature on the association between weather and COVID-19 incidence. This study concluded that weather does in fact play a significant role in COVID-19 transmission. Specifically, it said temperature and humidity were found to be the most common weather factors associated with COVID-19 transmission.
+        -Another study published in the same journal highlighted an issue with the existing research on COVID-19 and weather. It said that existing research on this association only considers weather variables during analysis. This study concluded that weather on its own was a non-influential factor in COVID-19 transmission. Instead, said that other factors such as urban density and mobility of the population influenced COVID-19 transmission much more than weather.
+        -One limitation of both of these studies in the data that they both had to work with. The first research article discussed was received for peer review in November 2020. The second article was received in September 2020. This means that both articles were working with limited COVID-19 data, specifically missing out on spikes that were seen in the United States during the November - January time frame.
+        -These articles highlight the need for continued exploration of the relationship between COVID-19 and the weather.
 -Describe project
     -map based web app with visualizations for COVID and weather together
     -intended audience: Middle school scientists

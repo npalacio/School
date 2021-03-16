@@ -21,6 +21,6 @@ University of Washington: https://covid19.healthdata.org/global?view=total-death
 Features to compare:
 -has a map
 -does it let you compare locations
--how granular
+-how granular is location data
 -what data points/charts (cases, deaths, hospitalizations, policies)
 -how configurable are charts
