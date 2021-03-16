@@ -12,20 +12,29 @@ Introduction
         -While the coronavirus is certainly not the same thing as the flu it does spread in a very similar manner. This alone makes the relationship between COVID-19 transmission and the weather worth exploring.
     -There has been some research published already exploring the relationship between weather and COVID. However, results from these studies have been mixed.
         -One literature review published in the International Journal of Environmental Research and Public health analyzed the current available literature on the association between weather and COVID-19 incidence. This study concluded that weather does in fact play a significant role in COVID-19 transmission. Specifically, it said temperature and humidity were found to be the most common weather factors associated with COVID-19 transmission.
-        -Another study published in the same journal highlighted an issue with the existing research on COVID-19 and weather. It said that existing research on this association only considers weather variables during analysis. This study concluded that weather on its own was a non-influential factor in COVID-19 transmission. Instead, said that other factors such as urban density and mobility of the population influenced COVID-19 transmission much more than weather.
-        -One limitation of both of these studies in the data that they both had to work with. The first research article discussed was received for peer review in November 2020. The second article was received in September 2020. This means that both articles were working with limited COVID-19 data, specifically missing out on spikes that were seen in the United States during the November - January time frame.
+        -Another study published in the same journal highlighted an issue with the existing research on COVID-19 and weather. It said that existing research on this association only considers weather variables during analysis. This study concluded that weather on its own was a non-influential factor in COVID-19 transmission. Instead, it said that other factors such as urban density and mobility of the population influenced COVID-19 transmission much more than weather.
+        -One limitation of both of these studies is the data that they both had to work with. The first research article discussed was received for peer review in November 2020. The second article was received in September 2020. This means that both articles were working with limited COVID-19 data, specifically missing out on spikes that were seen in the United States during the November - January time frame.
         -These articles highlight the need for continued exploration of the relationship between COVID-19 and the weather.
 -Describe project
-    -map based web app with visualizations for COVID and weather together
-    -intended audience: Middle school scientists
-    -Purpose: Allow students to investigate weather's role in COVID-19 transmission by interacting with a visualization tool
-        -Kids would be able to link what they are learning in school to what is happening in the world today
-    -Features:
-        -allow users to input location (county), date range and what charts they would like to see
-            -Charts would share the input date range
-        -allow users to input lag between weather and covid data
-            -this would represent incubation period of virus
-        -What other configurable things should there be about the visualization?
+    -Existing research has been aimed at proving or disproving weather's effect on the pandemic. My project aims to allow a user to explore this relationship on their own as opposed to establishing whether one exists or not.
+    -My proposed project is a web application that would allow a user to explore the relationship between weather and COVID-19 in different parts of the United States. This will be a map based web application that allows a user to go to an area of interest in the United States and view COVID-19 data and weather data together for a given date range.
+        -A user would be able to view the weather and COVID data using charts that would be linked views(?)
+        -This visualization tool would have several configurable features that a user can set, such as:
+            -location (county)
+            -date range
+            -lag between weather and COVID data
+                -account for incubation and testing delays
+            -weather data points
+                -temperature
+                -abs humidity
+                -rel humidity
+    -The intended user for my project would be a middle school scientist.
+        -I have chosen this population(?) of users for several reasons. The effects of the pandemic have not been limited to any subset of the population. Students across the United States had to abruptly switch to remote learning as the pandemic began. My project aims to allow students to link what they are learning in school to what is happening in the world today.
+            -my tool would help facilitate an activity in the classroom (virtual or otherwise) that would allow the students to investigate the hypothesis that weather does (or does not) influence COVID-19 transmission in the United States.
+            -According to Nebraska standards for science education, by the 7th grade students should be able to understand evidence for how different factors contribute to the weather and climate. Students should also understand the scientific process for asking questions and carrying out investigations by gathering evidence. My project would help to reinforce these ideas by investigating the question of weather's role in COVID-19 transmission by following the scientific process.
+            -Students would be expected to think critically about other factors besides weather that might drive infection rates as well.
+                -How do I make them think about things like population density and mobility?
+        -An activity like this could help drive STEM education by showing students what they are learning in school is related to what is going on in our world today.
 
 Related work
 -See covid visualization examples
