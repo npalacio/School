@@ -38,12 +38,17 @@ Introduction
 
 Related work
 -See covid visualization examples
--In this section I will compare and contrast some existing COVID-19 data visualizations in order to highlight work that is currently out there as well as some gaps in that work.
--I looked at COVID-19 data visualizations from John Hopkins University of Medicine, the COVID Tracking Project at the Atlantic and the Institute for Health Metrics and Evaluation (IHME) at the University of Washington. I compared and contrasted the visualizations that these organizations offered along several dimensions. Specifically, I looked at the following: How granular is the COVID-19 data? Which COVID-19 data points are visualized? Does it offer a spatial view? Does it offer any linked views? How configurable are the visualizations? The results of this comparison can be see in TABLE-XXX.
+-In this section I will compare and contrast some existing COVID-19 data visualizations in order to highlight work that is currently out there as well as some gaps.
+-I looked at COVID-19 data visualizations from John Hopkins University of Medicine, the COVID Tracking Project at the Atlantic and the Institute for Health Metrics and Evaluation (IHME) at the University of Washington. I compared and contrasted the visualizations that these organizations offered along several dimensions. Specifically, I looked at the following: How granular is the COVID-19 data? Which COVID-19 data points are visualized? Does it offer a spatial view? Does it offer any linked views of data? How configurable are the visualizations? The results of this comparison can be see in Table 1.
+-Now I will summarize my findings and discuss how this relates to my visualization. Only one of the organizations, John Hopkins, offered COVID-19 data at the county level in the US. Given that my visualization will show weather and COVID-19 data together, the location granularity of this data becomes more important. Weather in any state can vary greatly across different locations in that state. This is why my visualization will use county level COVID-19 data.
+-All of the organizations offered the same COVID-19 data points in their visualizations (cases, deaths, etc.). For my purposes of allowing a user to compare COVID-19 infection rates to weather patterns I will only be using confirmed COVID-19 case counts.
+-Since weather and COVID-19 infection rates both have a spatial dimension, a spatial view for my visualization is warranted. This is consistent with the existing visualizations I looked at, all 3 provided some sort of spatial view for the COVID-19 data. This is why I will be displaying a map to the user that they can interact with in order to view data at their location of interest.
+-
+
 -summarize comparisons
 
 
--something about how none of them look at weather
+-something about how none of them look at weather and their target audience is the general public
 
 Methods
 -it is a web app
