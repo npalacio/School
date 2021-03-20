@@ -38,6 +38,12 @@ Introduction
 
 Related work
 -See covid visualization examples
+-In this section I will compare and contrast some existing COVID-19 data visualizations in order to highlight work that is currently out there as well as some gaps in that work.
+-I looked at COVID-19 data visualizations from John Hopkins University of Medicine, the COVID Tracking Project at the Atlantic and the Institute for Health Metrics and Evaluation (IHME) at the University of Washington. I compared and contrasted the visualizations that these organizations offered along several dimensions. Specifically, I looked at the following: How granular is the COVID-19 data? Which COVID-19 data points are visualized? Does it offer a spatial view? Does it offer any linked views? How configurable are the visualizations? The results of this comparison can be see in TABLE-XXX.
+-summarize comparisons
+
+
+-something about how none of them look at weather
 
 Methods
 -it is a web app

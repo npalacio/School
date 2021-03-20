@@ -59,10 +59,12 @@ University of Washington: https://covid19.healthdata.org/global?view=total-death
     -can set date range, normalize data by population, smooth data out, turn on uncertainty
 
 Features to compare:
--has a map
+-has a map (Any spatial visualizations)
 -does it let you compare data from different locations
--how granular is location data
--what data points/charts (cases, deaths, hospitalizations, policies)
--are charts linked?
--how configurable are charts
-
+    -mine will not let you do this so I dont think I should include this
+-how granular is COVID data (Granularity of data)
+-what data points/charts (cases, deaths, hospitalizations, policies) (COVID-19 data points)
+-are charts linked? (Linked views)
+-how configurable are charts (Configurability of visualization)
+-target audience (Target Audience)
+    -public for all?
