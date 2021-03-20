@@ -45,8 +45,8 @@ Related work
 -Since weather and COVID-19 infection rates both have a spatial dimension, a spatial view for my visualization is warranted. This is consistent with the existing visualizations I looked at, all 3 provided some sort of spatial view for the COVID-19 data. This is why I will be displaying a map to the user that they can interact with in order to view data at their location of interest.
 -These organizations offered a variety of levels of configurability in their visualizations. Given that the purpose of my visualization is to allow a user to explore the data on their own I will offer a high level of configurability in my visualization in order to allow a user to visualize the data in a few different ways.
 
--summarize comparisons
-
+-Existing COVID-19 data visualizations all appear to share two traits that will be different for my visualization. The first is that existing visualizations seem to have the purpose of keeping the general public informed about the pandemic. This makes a lot of sense because keeping the public informed of what is going on helps them make informed decisions in their daily lives. The purpose of my visualization is to allow users, middle school scientists, to explore the relationship between two datasets, weather and COVID-19, and to think critically about this relationship.
+-The second trait that existing visualizations share is that they are only concerned with visualizing COVID-19 data. My project will visualize COVID-19 data alongside weather data.
 
 -something about how none of them look at weather and their target audience is the general public
 

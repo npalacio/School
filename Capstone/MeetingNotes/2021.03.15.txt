@@ -10,6 +10,10 @@ Questions I have
     -intended audience
 -how to cite Weather Source API
 -Struggling with this question: If the purpose of my visualization is to allow a 7th grade scientist to explore this data on their own what specific features should I include?
+    -let users pick weather data points to look at
+        -temp, abs humidity, rel humidity, whatever else weather source has
+    -toggle normalization of data
+    -toggle smoothing out data or not?
 
 Meeting notes
 
