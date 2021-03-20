@@ -9,6 +9,7 @@ Questions I have
         -Should I show a mockup or visual in intro of what the project is?
     -intended audience
 -how to cite Weather Source API
+-Struggling with this question: If the purpose of my visualization is to allow a 7th grade scientist to explore this data on their own what specific features should I include?
 
 Meeting notes
 
