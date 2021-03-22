@@ -1,0 +1,43 @@
+Stuff I got done
+
+Questions I have
+-how to cite NE school standards?
+    -author = ne dept of edu with year
+    -apa format for whitepaper or technical report (name = NE standards for science)
+    -Nebraska Department of Education. (2017).  Nebraska's College and Career Ready Standards for Science.  https://cdn.education.ne.gov/wp-content/uploads/2017/10/Nebraska_Science_Standards_Final_10_23.pdf
+    -https://www.nextgenscience.org/
+-would I need to explain temperature and humidity given the audience?
+-do I need to write up what the activity would be?
+    -not sure, maybe rough ideas
+    -goal is to build vis that can be emb in lesson plan for teachers.
+    -could talk about high level ideas for how a teacher would use it
+-how to cite Weather Source API
+    -footnote
+-Struggling with this question: If the purpose of my visualization is to allow a 7th grade scientist to explore this data on their own what specific features should I include?
+    -let users pick weather data points to look at
+        -temp, abs humidity, rel humidity, whatever else weather source has
+    -toggle normalization of data
+    -toggle smoothing out data or not?
+
+Meeting notes
+-is Huang same from flu and covid papers?
+-s
+-citing when naming author: 'Jamshidi et al (2020) said ...'
+-setup story with why this is an open debate
+    -this is a good opp for scientific thinking with kids
+-http://whyville.net/smmk/nice
+-https://journals.sagepub.com/doi/abs/10.1177/1555412009351264?casa_token=2rbe9KJri_8AAAAA:NASEWD9dPreXNeZkbmzH6j1whImRZH_LLqwIYM-IJ3HkeKYxG4-kLWmvv4Dg-sgBLndFP-1VuvfetA
+-https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+-'agent based modeling'
+-find papers about relationships between things
+-need refs to beef up why 
+-prof will send me papers on visualizations
+-tab in my paragraphs
+-visualization for learning and for kids
+    -2 themes for kid visualizations
+        -agent based modeling (dots, bumping)
+            -'this would not work for exploring my relationship'
+        -understanding correlation relationships
+            -'a more traditional visualizaiton with customization would be a better fit for my purposes'
+
+What I will do next
