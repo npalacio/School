@@ -30,7 +30,7 @@ Meeting notes
 -https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
 -'agent based modeling'
 -find papers about relationships between things
--need refs to beef up why 
+-need refs to beef up why these features given purpose of kids exploring
 -prof will send me papers on visualizations
 -tab in my paragraphs
 -visualization for learning and for kids
@@ -41,3 +41,12 @@ Meeting notes
             -'a more traditional visualizaiton with customization would be a better fit for my purposes'
 
 What I will do next
+-Next steps for proposal
+    -tab in paragraphs
+    -first p do timeline along with 'we have experienced waves of infections...'
+    -when initially bringing up weather, add in conjecture from sources that predicted weather would impact pandemic
+        -conjecture transitions to point about flu/weather
+    -add more details on the findings in papers around flu and weather relationship
+    -add more details on findings in papers around COVID and weather
+    -after talking about existing research for covid and weather transition to why kids
+        -we have an open debate 
