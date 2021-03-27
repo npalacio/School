@@ -35,6 +35,11 @@ Introduction
             -Students would be expected to think critically about other factors besides weather that might drive infection rates as well.
                 -How do I make them think about things like population density and mobility?
         -An activity like this could help drive STEM education by showing students what they are learning in school is related to what is going on in our world today.
+-kids and learning section
+    -This open debate in the scientific community presents a unique opportunity to engage students.
+    -Given the right tools, teachers could leverage this debate in order to engage students in the scientific process by tasking them to perform their own investigation into the same question of weather's role in the COVID-19 pandemic. My visualization would equip a teacher with a tool that students could use to explore this relationship. An activity like this would make the students think critically and ask questions about the data and what conclusions can, or cannot, be drawn.
+        -According to Nebraska standards for science education, by the 7th grade students should be able to understand evidence for how different factors contribute to the weather and climate. Students should also understand the scientific process for asking questions and carrying out investigations by gathering evidence (https://cdn.education.ne.gov/wp-content/uploads/2017/10/Nebraska_Science_Standards_Final_10_23.pdf)
+    -In paper X, they studied Y. One of the things they looked at was Z. One of their recomendations was that data be leveraged for students in the context of meaningful scientific pursuits. This is precisely what my project would aim to do.
 
 Related work
 -See covid visualization examples
