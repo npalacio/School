@@ -40,8 +40,12 @@ Introduction
     -Given the right tools, teachers could leverage this debate in order to engage students in the scientific process by tasking them to perform their own investigation into the same question of weather's role in the COVID-19 pandemic. My visualization would equip a teacher with a tool that students could use to explore this relationship. An activity like this would make the students think critically and ask questions about the data and what conclusions can, or cannot, be drawn.
         -According to Nebraska standards for science education, by the 7th grade students should be able to understand evidence for how different factors contribute to the weather and climate. Students should also understand the scientific process for asking questions and carrying out investigations by gathering evidence (https://cdn.education.ne.gov/wp-content/uploads/2017/10/Nebraska_Science_Standards_Final_10_23.pdf)
     -In paper X, they studied Y. One of the things they looked at was Z. One of their recomendations was that data be leveraged for students in the context of meaningful scientific pursuits. This is precisely what my project would aim to do.
+    -Data visualizations integrated into scientific curriculum has been shown to improve student learning outcomes (Linn, Lee, Tinker, etc.). This is why my project would be valuable for middle school scientists.
 
 Related work
+-existing data visualizations for learning section
+    -
+
 -See covid visualization examples
 -In this section I will compare and contrast some existing COVID-19 data visualizations in order to highlight work that is currently out there as well as some gaps.
 -I looked at COVID-19 data visualizations from John Hopkins University of Medicine, the COVID Tracking Project at the Atlantic and the Institute for Health Metrics and Evaluation (IHME) at the University of Washington. I compared and contrasted the visualizations that these organizations offered along several dimensions. Specifically, I looked at the following: How granular is the COVID-19 data? Which COVID-19 data points are visualized? Does it offer a spatial view? Does it offer any linked views of data? How configurable are the visualizations? The results of this comparison can be see in Table 1.
