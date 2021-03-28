@@ -59,6 +59,8 @@ Related work
 -Existing COVID-19 data visualizations all appear to share two traits that will be different for my visualization. The first is that existing visualizations seem to have the purpose of keeping the general public informed about the pandemic. This makes a lot of sense because keeping the public informed of what is going on helps them make informed decisions in their daily lives. The purpose of my visualization is to allow users, middle school scientists, to explore the relationship between two datasets, weather and COVID-19, and to think critically about this relationship.
 -The second trait that existing visualizations share is that they are only concerned with visualizing COVID-19 data. My project will visualize COVID-19 data alongside weather data.
 
+-These existing visualizations I looked at do not appear to be built with any specific group in mind. Their purpose seems to be to present this information to the public.
+
 -something about how none of them look at weather and their target audience is the general public
 
 Methods
