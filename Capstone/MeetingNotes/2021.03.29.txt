@@ -1,9 +1,34 @@
 Stuff I got done
+-Reworked introduction/related work sections based on feedback
+-Added in research to support why a COVID data visualization for middle school scientists is a good idea
+-Researched related work for data visualizations for kids using the articles you sent me as a starting point
 
 Questions I have
 -A lot of the existing work for data visualization and kids seems to be around physics/chemistry? Not sure how much of that would apply for what I want to do?
     -Maybe this is why my visualization is needed?
+    -I am trying to say 'These other visualizations for kids did this, so I will too...'
 
 Meeting notes
+-can contrast existing vis for kids with mine
+    -these are static but interactive
+    -kids can explore cause/effect in these
+        -lets kids play with input, run sim, view output based on new input
+        -kind of similar?
+    -reasoning about error, linear relationships, might come more from math?
+-data science curriculum
+    -project bootstrap: bootstrapworld.org 
+    -want kids to engage in reasoning about debate, how are these vars related
+    -want them to be able to observe, reason about regression models, noise and error, inform an argument around strength of relationship
+    -other curr have similar goals to what I am aiming for
+    -student will have same questions in bootstrap as in my activity
+    -how can we get kids to consider other explanations to a relationship they might see? threats to validity
+        -what are other variables we do not see? masks, local policies
+    -'these activities are done elsewhere (bootstrap) and are valuable'
+-features
+    -could write up user story list
+        -documents the why as well
+        -
 
 What I will do next
+-scheduling poll for last week of April (26-30), would aim to send proposal 1 week before, looking for 1 hour block
+    -talk through proposal with 20 min presentation
