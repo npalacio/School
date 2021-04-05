@@ -1,19 +1,22 @@
-As a student, I can view a map of the United States.
+As a student, I can view a map of the United States 'so that I can explore the map for county of interest'
     --Do I need this one? Struggling to think of the 'in order to...' part. I'm thinking this would be the landing page for the app.
 As a student, I can search for a county of interest in order to begin to investigate weather's role in the pandemic for this county.
 As a student, I can select my county of interest on a map and view COVID and weather data for that county.
     --Trying to say they can click on the county on the map and the charts start showing up on the screen
 
+--Need to add in order to clause
 As a student, I can view the number of daily COVID cases in my county of interest over a date range.
 As a student, I can view daily average temperature in my county of interest over a date range.
 As a student, I can view daily absolute humidity in my county of interest over a date range.
 As a student, I can view daily relative humidity in my county of interest over a date range.
 As a student, I can view a scatter plot of the number of daily COVID cases in my county alongside any of my X weather data points over the date range in order to visualize the relationship between the 2 data points for this date range.
     --Want this to imply they can swap out what weather data point is in scatter plot
-    As a student, I can view view the correlation coefficent with the scatterplot in order to understand the strength of the relationship between the 2 variables.
+As a student, I can view view the correlation coefficent with the scatterplot in order to understand the strength of the relationship between the 2 variables.
     
 
 As a student, I can adjust the date range for all data points.
 As a student, I can view all the same daily data points rolled up to weekly averages in order to smooth out the data.
 As a student, I can view all the same daily data points converted to 7 day rolling averages in order to smooth out the data.
-
+    --in order to reduce noise of individual day data
+--Wondering if I should store the state in the URL so students would be able to save links with something they find? i.e. They found a strong correlation in this county over this date range, etc and want to share.
+    --Yes
