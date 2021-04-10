@@ -45,8 +45,6 @@ Introduction
     -In 2018, Lee and Wilkerson studied data use by middle and secondary students and wrote their status report on this broad subject. One of the things they looked at was how teachers can best support students working with data. One of their recommendations for teachers' use of data in the classroom was that data should be leveraged in the context of meaningful scientific pursuits. My project falls in line with this guidance because students would be asked to participate in an open debate in the scientific community and draw their own conclusions using evidence they gather using the tool.
 
 Related work
--existing data visualizations for learning section
-    -
 
 -See covid visualization examples
 -In this section I will compare and contrast some existing COVID-19 data visualizations in order to highlight work that is currently out there as well as some gaps.
@@ -62,6 +60,17 @@ Related work
 -These existing visualizations I looked at do not appear to be built with any specific group in mind. Their purpose seems to be to present this information to the public.
 
 -something about how none of them look at weather and their target audience is the general public
+
+-Data visualizations for learning
+    -There has been research done investigating how students interpret graphs as well as best practices for providing graphs to students for their interpretation (Review of Graph Comprehension Research...)
+    -Scatterplots are an effective tool for exploring the relationship between two variables (Interpreting Graphs: Students Developing...). 
+        -I will provide a scatterplot of weather and COVID data.
+    -Representing the same data in multiple formats helps students' understanding when there are multiple quantitative facts to communicate (Review of Graph Comprehension Research...)
+        -I will provide scatterplots as well as individual line graphs for the data
+            -My quant. facts: trend of COVID cases, trend of weather, covariance of both
+    -something about reducing load on working memory (Review of Graph Comprehension Research...)
+        -Labels over legends where ever I can
+        -effective use of color
 
 Methods
 -it is a web app
