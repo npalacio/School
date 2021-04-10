@@ -17,3 +17,5 @@ As a student, I can adjust the date range for all data points.
 As a student, I can view all the same daily data points rolled up to weekly averages in order to smooth out the data.
 As a student, I can view all the same daily data points converted to 7 day rolling averages in order to smooth out the data.
 As a student, I can share/save my current views of the data with another person by sharing my current URL in order to share evidence of my conclusions.
+
+--Mockup map: https://mapchart.net/usa-counties.html
