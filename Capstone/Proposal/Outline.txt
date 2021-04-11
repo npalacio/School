@@ -62,15 +62,18 @@ Related work
 -something about how none of them look at weather and their target audience is the general public
 
 -Data visualizations for learning
-    -There has been research done investigating how students interpret graphs as well as best practices for providing graphs to students for their interpretation (Review of Graph Comprehension Research...)
-    -Scatterplots are an effective tool for exploring the relationship between two variables (Interpreting Graphs: Students Developing...). 
+    -REMOVING: Scatterplots are an effective tool for exploring the relationship between two variables (Interpreting Graphs: Students Developing...). 
         -I will provide a scatterplot of weather and COVID data.
-    -Representing the same data in multiple formats helps students' understanding when there are multiple quantitative facts to communicate (Review of Graph Comprehension Research...)
-        -I will provide scatterplots as well as individual line graphs for the data
-            -My quant. facts: trend of COVID cases, trend of weather, covariance of both
-    -something about reducing load on working memory (Review of Graph Comprehension Research...)
-        -Labels over legends where ever I can
-        -effective use of color
+    -Given my goal of allowing a user to investigate the relationship between two variables, COVID-19 infection and weather, a scatterplot graph is appropriate.
+    -There has been research done investigating how students interpret graphs as well as best practices for providing graphs to students for their interpretation. A literature review by Hoeffner and Shah (2002) looked at the cognative literature on how people understand graphs as well as the factors that influence that understanding. This paper looked at 3 factors that influence a viewer's understanding of a graph: the visual characteristics of the graph, a viewer's knowledge about graphs, as well as a viewer's knowledge about the data in the graph. The paper synthesizes these findings into recommendations for how to best present graphs to students. (Review of Graph Comprehension Research...)
+        -One of their recommendations was to represent the same data in multiple formats. This helps students' understanding when there are multiple quantitative facts to communicate about the data.
+            -I have 3 quantitative facts about the data I wish to communicate for a given US county and date range: the trend of COVID-19 infections, the trend of several weather data points, and the covariance of COVID-19 infections with each weather data point.
+            -Given this, I will provide a scatterplot graph that communicates the covariance of COVID-19 infections and a weather data point that a user could select from a predefined list. I will also provide individual line graphs of COVID-19 infections and each weather data point that will communicate the trend of each variable on its own.
+        -Another recommendation from this paper was to be careful about the density of the data points, specifically for scatterplots because users often mentally exaggerate how correlated 2 variables are in a scatterplot that is very dense with data points. A graph can become more dense by either adding data points or shrinking its size. This means that I will need to be careful to not try to plot too many data points on the scatterplot I provide depending on its size.
+
+        -REMOVING: something about reducing load on working memory (Review of Graph Comprehension Research...)
+            -Labels over legends where ever I can
+            -effective use of color
 
 Methods
 -it is a web app
