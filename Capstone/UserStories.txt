@@ -1,5 +1,5 @@
 As a student, I can search for a county of interest on a map in order to begin to investigate weather's role in the pandemic for this county.
-As a student, I can search for a county of interest by name in order to begin to investigate weather's role in the pandemic for this county.
+As a student, I can search for a county of interest by name and view a list of matches in order to begin to investigate weather's role in the pandemic for this county.
 As a student, I can select my county of interest on a map and view COVID and weather data for that county.
     --Trying to say they can click on the county on the map and the charts start showing up on the screen
 
@@ -19,3 +19,13 @@ As a student, I can view all the same daily data points converted to 7 day rolli
 As a student, I can share/save my current views of the data with another person by sharing my current URL in order to share evidence of my conclusions.
 
 --Mockup map: https://mapchart.net/usa-counties.html
+-chart settings
+    -date range
+    -weather data point
+        -Average temperature
+        -Average relative humidity
+        -Average absolute humidity
+    -daily data or weekly data or 7 day rolling average
+-Questions
+    -should correlation coeff be a 'label: value' or a tooltip on the best fit line on scatterplot?
+    -not sure where to put menu for chart settings

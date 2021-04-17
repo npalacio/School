@@ -89,46 +89,24 @@ Methods
         -paid API
             -free access to researchers looking into weather and COVID
         -can view daily, hourly weather history by ZIP code or lat/long
+-User stories
+-Mockups
 -data preparation
-    -can calculate new daily infections by county
-    -weather data can be queried by lat/long using centroid of US counties
-    -Inputs: US county, begin date, end date
-    -Output:
-        -chart with time on x-axis
-        -weather data on y1 (with 1 week lag)
-            -average weekly temperature
-                -average weekly absolute humidity? average weekly relative humidity? Would need another axis for these. Should I plot these in separate charts?
-        -covid data on y2
-            -average weekly infection rate (new infections per week)
-        -just start with first day of range, for every 7 days:
-            -sum up daily new infections = new infections that week
-                -or should I calculate average infections/day for that week?
-            -calculate average temperature for that week
-    -data definitions
-        -average weekly temperature (avgWeeklyTemp) = (tempDay1 + tempDay2 + ... + tempDay7)/7
-        -average absolute humidity temperature = (absHumDay1 + absHumDay2 + ... + absHumDay7)/7
-        -average relative humidity temperature = (relHumDay1 + relHumDay2 + ... + relHumDay7)/7
-        -weekly relative variation of temp = avgWeeklyTempWeek2 - avgWeeklyTempWeek1
-        -weekly absolute variation of temp = |avgWeeklyTempWeek2 - avgWeeklyTempWeek1|
-        -average weekly infections = (newInfectionsDay1 + newInfectionsDay2 + ... + newInfectionsDay7)/7
--data visualization
-    -core pieces:
-        -a map where a user can pick a county of interest
-        -somewhere to input a date range from user
-        -charts for:
-            -weekly COVID infections
-            -weekly average temp
-            -weekly average abs humidity
-            -weekly relative variation of temp
-    -Questions:
-        -Probably pick 2 weather charts to start with?
-            -Temp, absolute humidity
-        -Should the map be symbolized using any of this data?
-            -Would be cool if counties with a strong correlation of COVID to weather were symbolized differently but not sure how I would do that
-            -seems like a nice to have?
-        -How to best visualize COVID and weather datasets?
-            -Current best idea is separate charts because these data points all have different scales
-            -Charts could share user interactions
-                -user hovers on 1 and tooltip shows on all of them?
-        -Could only show charts once a county is selected
-            -seems like a nice to have?
+    -COVID Infections
+        -Input: Cumulative confirmed COVID-19 cases by county by day
+        -Output:
+            -New confirmed COVID-19 cases by county by day
+                newCasesDay1 = cumulativeCasesDay1 - cumulativeCasesDay0
+            -Weekly average of new confirmed COVID-19 cases by county
+                weeklyAverageOfNewInfections = (newInfectionsDay1 + newInfectionsDay2 + ... + newInfectionsDay7)/7
+            -7 day rolling average of new confirmed COVID-19 cases by county
+                rollingAverageOfNewInfectionsDay7 = (newCasesDay1 + newCasesDay2 + ... + newCasesDay7)/7
+    -Weather
+        -daily weather data can be queried by lat/long using centroid of US counties
+        -Input: daily average weather data point (Temperature, Relative Humidity, Absolute Humidity)
+        -Output:
+            -Daily average temperature
+            -Weekly average temperature
+                avgWeeklyTemp = (tempDay1 + tempDay2 + ... + tempDay7)/7
+            -7 day rolling average temperature
+                rollingAverageTempDay7 = (avgTempDay1 + avgTempDay2 + ... + avgTempDay7)/7
