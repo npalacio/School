@@ -29,3 +29,4 @@ As a student, I can share/save my current views of the data with another person 
 -Questions
     -should correlation coeff be a 'label: value' or a tooltip on the best fit line on scatterplot?
     -not sure where to put menu for chart settings
+        -currently almost looks like it is only associated with the top chart
