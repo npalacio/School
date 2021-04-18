@@ -110,3 +110,16 @@ Methods
                 avgWeeklyTemp = (tempDay1 + tempDay2 + ... + tempDay7)/7
             -7 day rolling average temperature
                 rollingAverageTempDay7 = (avgTempDay1 + avgTempDay2 + ... + avgTempDay7)/7
+-Resources
+    -ASP.NET Core Web App with Angular frontend hosted in Azure App Service
+        -API would be in charge of serving up WeatherSource and COVID-19 data
+            -weather
+                -GET /weather/temperature/county/{FIPS}?startDate={startDate}&endDate={endDate}
+                -GET /weather/relative-humidity/county/{FIPS}?startDate={startDate}&endDate={endDate}
+                -GET /weather/absolute-humidity/county/{FIPS}?startDate={startDate}&endDate={endDate}
+            -COVID-19
+                -GET /covid-19/cases/county/{FIPS}?startDate={startDate}&endDate={endDate}
+    -Frontend
+        -Chart.js for charts
+            -has libraries to help integrate with Angular
+        -NGRX for managing frontend state
