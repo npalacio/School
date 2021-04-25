@@ -45,6 +45,10 @@ Background
     -Students would be expected to follow the scientific process of creating their own hypothesis and then gathering evidence to support a conclusion
     -My tool would help them gather that evidence
     -Students would be expected to think critically about the limitations of what they might see in the tool and what conclusions can or cannot be drawn based on what they find
+    -In 2018 there was a study done that looked at data use by middle and secondary school students (Lee, et. al., 2018)
+        -One thing they looked at was how teachers can best support students working with data
+        -One of their recommendations was that data should be leveraged in the classroom in the context of meaningful scientific pursuits
+        -My tool falls right in line with this recommendation because students would be asked to participate in this open scientific debate
 Related work
 -other covid visualizations
     -In order to start figuring out what my visualization might look like I looked at 3 existing COVID-19 data visualizations
@@ -67,16 +71,18 @@ Related work
             -I will offer a high level of configurability in my visualization in order to allow the user to visualize the data in a few different ways
 
 Methods
--what I will build
+-For the next part of my presentation I am going to talk about what exactly I propose building and how I think I can accomplish that
+-I propose building a map based web application that will allow a user to visualize COVID-19 and weather data alongside each other in order to investigate the relationship between the two.
+-Now I am going to walk through some mockups of what the user interface for this tool might look like
     -Mockups
--how I will build it
+-Now I'm going to talk about how I would go about building this, starting with my data sources.
     -Data sources
         -COVID
             -New York Times dataset on GitHub
             -Cumulative cases by county by day for all counties in US.
         -Weather
-            -WeatherSource API
-            -A technology company that provides a suite of products that help businesses leverage weather and climate data
+            -For my weather data I will be using an API from WeatherSource
+            -WeatherSource is a technology company that provides a suite of products that help businesses leverage weather and climate data
             -On March 16th, 2020 WeatherSource opened up their API for free to any researchers exploring the relationship between weather and the COVID-19 pandemic
             -One of their APIs allows you to query many different weather data points by location using latitude and longitude or a zip code along with a date range
             -Data can be returned in an hourly or daily format
@@ -98,10 +104,19 @@ Methods
             -Azure App Service
                 -To host an ASP.NET Core Web Application that will serve up an Angular frontend and provide API endpoints for serving up the COVID-19 and weather data
             -Azure SQL database
-                -To host the COVID-19 data
+                -Loaded nightly or weekly with COVID-19 data from the New York Times dataset on Github
+                -Used by API serving up COVID-19 data
+            -Azure Function or WebJob inside App Service
+                -For this nightly load I am currently trying to decide between a WebJob or an Azure Function, any help would be much appreciated
+                -1.2 million rows of data, ~12 MB
+                -Leaning towards Function
+        -Code repository hosted on GitHub with GitHub actions for CI/CD
+
+Conclusion
+-In summary, I propose building a visualization tool that would allow a user to investigate weather's role in the pandemic with the goal of engaging students in a real world scientific debate where they would be expected to follow the scientific process and think critically about correlations they might find.
 
 Questions
--from professor
+-1 from professor
 
 References
 -(Jamshidi et al., 2020)
