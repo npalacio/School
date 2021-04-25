@@ -113,10 +113,24 @@ Methods
         -Code repository hosted on GitHub with GitHub actions for CI/CD
 
 Conclusion
--In summary, I propose building a visualization tool that would allow a user to investigate weather's role in the pandemic with the goal of engaging students in a real world scientific debate where they would be expected to follow the scientific process and think critically about correlations they might find.
+-In summary, I propose building a visualization tool that would allow a user to investigate weather's role in the pandemic with the goal of engaging students in a real world scientific debate where they would be expected to follow the scientific process and think critically about what they might find.
 
 Questions
--1 from professor
+-Before I open it up to everyone for questions I would actually like to discuss 2 questions I received from one of the professors on my committee.
+-I emailed them my project proposal document last week and Dr. Brian Ricks replied with 2 questions he would like us to address in our meeting on Thursday
+-His first question was 'If researchers have found that the relationship between weather and COVID spread is low, what do you think the middle school students will conclude?'
+    -As some background, I've been working with Dr. Dorn on my graduate committee throughout the semester on this proposal so he knows everything about my project already
+    -Dr. Dorn was the one who came up with this idea of making this tool for students because at that time all I knew I wanted to do was make a data visualization with COVID-19 and the weather
+    -Targeting students allowed us to really scope the project to a well defined purpose, with that purpose being to enable a classroom activity where students are engaged in an open scientific debate
+    -We want the students to think critically about what they are seeing in this tool and more specifically what they are not seeing
+    -It is very plausible that students could go to a county and see what they think is a stong correlation between weather and COVID-19 infection rates
+    -We want them to be challenged to think about what else could be causing this? What am I not seeing?
+        -For instance, what local policies were enacted in this county and when? What's the mobility index for this county across this date range?
+    -So in a way we're pushing a lot of responsibility outside of the tool because it allowed us to scope my project to a limited set of concerns (weather and COVID-19)
+-His second question was 'Do you have any thoughts about how to determine if the project accomplished the goal of student learning?'
+    -I actually don't have an answer for this one right now
+    -In my proposal document I sent them I had a timeline of the development tasks needed to build this but nothing really about validating it so I think that's something I still have to think through with my committee
+-Now I would like to open it up to the floor for any questions
 
 References
 -(Jamshidi et al., 2020)
