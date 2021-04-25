@@ -11,8 +11,8 @@ Introduction
         -Dr. Rex Cammack, Associate Professor of Geography
         -Dr. Brian Ricks, Associate Professor of Computer Science
     -They will decide if my project can move forward where I would implement it over the summer or if changes need to be made before that can happen
-    -This presentation will 
-        -be me creating some context around what my project is and why it is important
+    -This presentation will be:
+        -me creating some context around what my project is and why it is important
         -then I'm going to talk about some related work already out there that is similar to what I want to do
         -finally I will go in depth on what my project actually is and how I will build it
 
@@ -39,7 +39,7 @@ Background
         -One study was submitted for review in September 2020 while the other study was submitted in November 2020 meaning that both of them were missing out on spikes seen in the US around the November - January timeframe
 -setup problem/motivation
     -My proposed project is a visualization tool that would allow a user to look into this relationship between weather variables and COVID-19 transmission
-    -What we have here is an open scientific debate around weather's role in the pandemic
+    -What we have going on right now is an open scientific debate around weather's role in the pandemic
     -This presents a unique opportunity to engage students which is why the target user for my tool would be a middle school scientist
     -A tool like this could be used in a classroom activity where students are tasked with the same question of investigating weather's role in the pandemic
     -Students would be expected to follow the scientific process of creating their own hypothesis and then gathering evidence to support a conclusion
@@ -55,6 +55,7 @@ Related work
         -John Hopkins
         -The COVID Tracking Project by The Atlantic
         -The Institute for Health Metrics and Evaluation (IHME) at the University of Washington
+    -Here are some screenshots of parts of each one of these. All of them provide several visualizations of the data that you can browse through.
     -I evaluated them along 4 dimensions in order to compare and contrast them with what I might want to do:
         -How granular is the data?
         -Which COVID-19 data points are used?
@@ -134,5 +135,6 @@ Questions
 
 References
 -(Jamshidi et al., 2020)
+-(Lee, et. al., 2018)
 -(McClymont & Hu, 2021)
 -(Roussel et al., 2016)
