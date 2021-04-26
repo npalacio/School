@@ -1,19 +1,28 @@
 Stuff I got done
--user stories
+-proposal
 
 Questions I have
--user stories
--remaining work
+-proposal feedback
+-For the presentation next week how in dept do I go?
+    -20 minute tops
+    -walk through docid
+    -what is problem we are solving, methods, open questions I have
+    -remind them what is in doc
+    -slides with background work should have refs
+    -5-6 min background
+    -15 min of what I am going to do and how
+    -draft slides, 1 slide per minute, 12-15 slides
+    -1 slide for problem/thesis statement
+-app architecture?
+-writing up project is a deliverable
+-need to be done by July 29
+    -scheduling defense no later than 27th (pushing it)
+        -safe = 1 week prior, project write up 1 week before presenting
 
 Meeting notes
--https://unomaha.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991008307745106390
--https://doi.org/10.1037/0022-0663.91.4.690
--Cambridge Handbook of Visuospatial Thinking
--kids and visualizations
-    -line graphs harder for kids (and scatterplots)
-        -how can we help them?
--'middle school interpretation of graphs'
--dont user area to encode magnitude
 
 What I will do next
--read research
+-add context to mockup figures
+-add project timeline
+-send proposal with reminder including zoom link
+-create presentation

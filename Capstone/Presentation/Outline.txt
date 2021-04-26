@@ -138,3 +138,23 @@ References
 -(Lee, et. al., 2018)
 -(McClymont & Hu, 2021)
 -(Roussel et al., 2016)
+
+Feedback
+-better covid vid pictures
+-mention user stories, they capture these ideas
+    -shareability
+    -multiple representations
+-link design decisions to literature
+-zoom into parts, highlight visual parts
+    -next to big pics
+-data sources: 'evaluated several data sources for each...'
+-talk about why for data transformations
+    -makes more sense during mockups
+-Add Timeline
+-add user stories before
+-what will students conclude?
+    -want them to engage in scientific discourse around the data
+
+-informal focus group?
+-an evaluation study in a school is beyond the scope of my project
+-my part could end with documentation for tool
