@@ -3,7 +3,7 @@ Introduction
     -Nick Palacio
     -Application Developer at FCSA for 2.5 years
     -Been working on my Masters in Computer Science from UNO since 2017, set to graduate this August
--what is this presentation
+-FCSA: what is this presentation
     -This is my project proposal for my Masters Capstone project
     -Will be presenting this to my graduate committe this Thursday
     -This committee consists of 3 professors from UNO:
@@ -11,10 +11,10 @@ Introduction
         -Dr. Rex Cammack, Associate Professor of Geography
         -Dr. Brian Ricks, Associate Professor of Computer Science
     -They will decide if my project can move forward where I would implement it over the summer or if changes need to be made before that can happen
-    -This presentation will be:
-        -me creating some context around what my project is and why it is important
-        -then I'm going to talk about some related work already out there that is similar to what I want to do
-        -finally I will go in depth on what my project actually is and how I will build it
+-This presentation will be:
+    -me creating some context around what my project is and why it is important
+    -then I'm going to talk about some related work already out there that is similar to what I want to do
+    -finally I will go in depth on what my project actually is and how I will build it as well as why
 
 Background
 -create context
@@ -49,18 +49,21 @@ Background
         -One thing they looked at was how teachers can best support students working with data
         -One of their recommendations was that data should be leveraged in the classroom in the context of meaningful scientific pursuits
         -My tool falls right in line with this recommendation because students would be asked to participate in this open scientific debate
+
 Related work
 -other covid visualizations
+
     -In order to start figuring out what my visualization might look like I looked at 3 existing COVID-19 data visualizations
         -John Hopkins
         -The COVID Tracking Project by The Atlantic
         -The Institute for Health Metrics and Evaluation (IHME) at the University of Washington
-    -Here are some screenshots of parts of each one of these. All of them provide several visualizations of the data that you can browse through.
+
     -I evaluated them along 4 dimensions in order to compare and contrast them with what I might want to do:
         -How granular is the data?
         -Which COVID-19 data points are used?
         -Do they provide any spatial view?
         -How configurable are they?
+
     -Summary
         -Only 1 had COVID-19 data granularity at the county level, the rest were at the state or country level
             -Given that weather can vary greatly across any state the location granularity becomes much more important which is why I will use county level COVID-19 data
@@ -76,13 +79,23 @@ Methods
 -I propose building a map based web application that will allow a user to visualize COVID-19 and weather data alongside each other in order to investigate the relationship between the two.
 -Now I am going to walk through some mockups of what the user interface for this tool might look like
     -Mockups
+        -There was a literature review performed in 2002 that looked at the cognitive literature on how people understand graphs. This paper looked at 3 factors that influence a viewer's understanding of a graph:
+            -the visual characteristics of the graph
+            -a viewer's knowledge about graphs
+            -a viewer's knowledge about the data in the graph
+        -This paper synthesized their findings into recommendations for how to best present graphs to students. One of their recommendations was to represent the same data in multiple formats because this helps students' understanding when there are multiple quantitative facts to communicate about the data. I have 3 quantitative facts that I wish to communicate about the data
+            -what is the trend of COVID-19 infections
+            -what is the trend of the weather data point, temperature for instance
+            -what is the covariance of COVID-19 infections with the weather data point
+
 -Now I'm going to talk about how I would go about building this, starting with my data sources.
     -Data sources
+        -I evaluated several data sources for both COVID-19 and Weather data.
         -COVID
-            -New York Times dataset on GitHub
+            -For COVID-19 data I decided on the New York Times dataset on GitHub
             -Cumulative cases by county by day for all counties in US.
         -Weather
-            -For my weather data I will be using an API from WeatherSource
+            -For my weather data I decided on using an API from WeatherSource
             -WeatherSource is a technology company that provides a suite of products that help businesses leverage weather and climate data
             -On March 16th, 2020 WeatherSource opened up their API for free to any researchers exploring the relationship between weather and the COVID-19 pandemic
             -One of their APIs allows you to query many different weather data points by location using latitude and longitude or a zip code along with a date range
@@ -140,20 +153,13 @@ References
 -(Roussel et al., 2016)
 
 Feedback
--better covid vid pictures
 -mention user stories, they capture these ideas
     -shareability
     -multiple representations
 -link design decisions to literature
--zoom into parts, highlight visual parts
-    -next to big pics
--data sources: 'evaluated several data sources for each...'
 -talk about why for data transformations
     -makes more sense during mockups
--Add Timeline
 -add user stories before
--what will students conclude?
-    -want them to engage in scientific discourse around the data
 
 -informal focus group?
 -an evaluation study in a school is beyond the scope of my project
