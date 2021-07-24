@@ -94,24 +94,30 @@ Methods
             -I am using an Azure Function App for loading the COVID-19 data from the dataset from the New York Times hosted on GitHub. This data is in a CSV format on GitHub.
 
 Future work
+-Now I am going to talk about some of the limitations in the current implementation and opportunities for future work.
 -usability testing
-    -classroom study with real students
-    -eye tracking study to see how people are reasoning about the data
--better capture spatial component of data
-    -both weather and COVID data have a spatial component
-    -currently the application only shows you data from one county at a time
-    -this makes it difficult to understand how the data might differ by location
-    -allowing users to see data from multiple counties would be a good next step
--weather data is continuous but I represent it as discrete
+    -The next thing that probably needs to be done for this project is to do some usability testing by getting it in front of real students.
+    -This could be done with a classroom study with a middle school science class where they are given an activity that involves using the tool.
+    -An eye tracking study to see how people are reasoning about the data might be useful as well.
+-One limitation of the current implementation is that weather data is continuous but I represent it as discrete
     -I am using the centroid of each county in order to sample the weather data
-    -this is a rough approximation and gets less accurate the bigger the county is
+    -This is a rough approximation and gets less accurate the bigger the county is
+    -A more accurate representation of this data would be a good opportunity for future work
+-Another opportunity for future work is to better capture the spatial component of the data
+    -Both weather and COVID data have a spatial component
+    -Currently the application only shows you data from one county at a time
+    -This makes it difficult to understand how the data might differ by location
+    -Allowing users to see data from multiple counties would be a good next step
 
 Challenges
--for the most part, there were not any major hurdles that popped up. Just normal software development stuff, dealing with random errors and things like that. Spending 3 hours looking into an error only to find it was a simple typo in the code.
+-Now I'd like to talk a little bit about some challenges I ran into while implementing the tool
+-for the most part, there were not any major hurdles that popped up. Just normal software development stuff, dealing with random errors and things like that. Things taking a lot longer to implement than I thought.
+-That leads me into my next challenge which was finding the time to work on it with my full time job. Often times I would write code all day at work and then come home and write code for a few more hours. This made for some long days and I am very happy to be finished, although this was enjoyable to work on for the most part.
 -Azure learning curve
--finding the time to work on it was challenging with my full time job
+    -Since I had limited experience building things with Azure there was a little bit of a learning curve there while I was getting my services set up. Azure has pretty good documentation and for a lot of stuff I was able to follow their simple tutorials online.
 -calling things 'good enough'
-    -did not have time or resources to make everything perfect
+    -The toughest challenge for me personally throughout the project was knowing when to call things 'good enough'
+    -I did not have the time or resources to make everything perfect so I had to make concious decisions to call my current implementation good enough so I could move onto the other things I needed to implement.
 
 
 
