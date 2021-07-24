@@ -3,15 +3,13 @@ Introduction
     -Nick Palacio
     -Application Developer at FCSA for 2.5 years
     -Been working on my Masters in Computer Science from UNO since 2017, set to graduate this August
--FCSA: what is this presentation
-    -This is my final presentation for my Masters Capstone project
 -This presentation will be:
     -refresher on what my project proposal was and why it is important
         -you might remember some of the content here from my initial presentation
     -demo of my finished project to show you what I ended up building
-    -how I built my project
+    -how I built my project and the resources I used
     -challenges
-    -limitations/future work
+    -current limitations/future work
     -conclusion
 
 Background
@@ -49,16 +47,17 @@ Background
         -My tool falls right in line with this recommendation because students would be asked to participate in this open scientific debate
 
 Demo
--search for or click county
--chart settings (show updated charts for each)
-    -date range
-    -weather data point
-    -aggregation
--sharing work
-    -open link in new tab
+-Now I would like to do a demo of the tool I've spent this last summer building
+    -search for or click county
+    -chart settings (show updated charts for each)
+        -date range
+        -weather data point
+        -aggregation
+    -sharing work
+        -open link in new tab
 
 Methods
--Now I'm going to talk about how I ended up building this.
+-Now I'm going to talk about how I ended up building this tool.
 -From a high level, I pretty much implemented everything exactly as I had planned it in my initial proposal
 -Data sources
     -COVID
@@ -70,7 +69,7 @@ Methods
         -On March 16th, 2020 WeatherSource opened up their API for free to any researchers exploring the relationship between weather and the COVID-19 pandemic
         -One of their APIs allows you to query many different weather data points by location using latitude and longitude or a zip code along with a date range
         -Data can be returned in an hourly or daily format
-        -For my purposes I will be querying average temperature, average relative humidity and average absolute humidity by lat/long and a date range where the lat/long will be the centroid of the county the user has selected
+        -For my purposes I am querying average temperature, average relative humidity and average absolute humidity by lat/long and a date range where the lat/long is the centroid of the county the user has selected
         -Data returned in a daily format
 -Data transformation
     -COVID
@@ -82,17 +81,17 @@ Methods
         -I start with the daily data points I need already
         -I can convert them to weekly or 7-day rolling averages in the same way as the COVID-19 data
 -Resources
-    -GitHub (open GitHub)
-        -source control
-        -GitHub actions for CI/CD
-        -Project board for tracking user stories and bugs
-    -Azure
+    -GitHub - I am leveraging GitHub for a few different things
+        -I am using it for source control.
+        -I am using GitHub actions for CI/CD
+        -I am using a GitHub Project board for tracking user stories and bugs
+    -Azure - My tool is hosted in Azure using a few different Azure resources
         -Azure App Service
-            -The Azure App Service will be responsible for serving up the Angular Application as well as providing several API endpoints for the weather and COVID-19 data.
+            -I am using an Azure App Service for serving up the Angular Application as well as providing several API endpoints for the weather and COVID-19 data.
         -Azure SQL database
-            -The Azure SQL Database will be responsible for housing the COVID-19 data.
+            -I am using an Azure SQL Database for housing the COVID-19 data that I pull from the New York Times dataset.
         -Azure Function
-            -The Azure Function App will be responsible for loading the COVID-19 data from the dataset from the New York Times hosted on GitHub. This data is in a CSV format on GitHub.
+            -I am using an Azure Function App for loading the COVID-19 data from the dataset from the New York Times hosted on GitHub. This data is in a CSV format on GitHub.
 
 Future work
 -usability testing
@@ -105,14 +104,14 @@ Future work
     -allowing users to see data from multiple counties would be a good next step
 -weather data is continuous but I represent it as discrete
     -I am using the centroid of each county in order to sample the weather data
-    -this is a rough approximation and gets less accurate the bigger the county is 
+    -this is a rough approximation and gets less accurate the bigger the county is
 
 Challenges
--for the most part, there were not any major hurdles that popped up. Just normal software development stuff, dealing with random errors and things like that.
+-for the most part, there were not any major hurdles that popped up. Just normal software development stuff, dealing with random errors and things like that. Spending 3 hours looking into an error only to find it was a simple typo in the code.
+-Azure learning curve
 -finding the time to work on it was challenging with my full time job
 -calling things 'good enough'
     -did not have time or resources to make everything perfect
-    -Azure learning curve
 
 
 
