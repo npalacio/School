@@ -119,6 +119,13 @@ Challenges
     -The toughest challenge for me personally throughout the project was knowing when to call things 'good enough'
     -I did not have the time or resources to make everything perfect so I had to make concious decisions to call my current implementation good enough so I could move onto the other things I needed to implement.
 
+Conclusion
+-My goal with this project was to build a visualization tool that could be leveraged in a classroom in order to allow students to participate in an open scientific debate related to weather’s role in the COVID-19 pandemic
+-I have accomplished this goal
+-I implemented all the user stories I had planned and for the most part my implementation matches the mockups I created.
+-I would like to thank all 3 of you for being a part of my graduate committee
+-I really appreciate everyone's time and participation
+-I would also like to give special thanks to Dr Dorn who throughout this last year has been meeting with me a few times a month to help me develop the proposal for this project and answer all my questions
 
 
 
