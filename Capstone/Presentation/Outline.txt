@@ -4,20 +4,19 @@ Introduction
     -Application Developer at FCSA for 2.5 years
     -Been working on my Masters in Computer Science from UNO since 2017, set to graduate this August
 -This presentation will be:
-    -refresher on what my project proposal was and why it is important
-        -you might remember some of the content here from my initial presentation
-    -demo of my finished project to show you what I ended up building
-    -how I built my project and the resources I used
-    -challenges
-    -current limitations/future work
-    -conclusion
+    -I'll start this presentation with a refresher on what my project proposal was and why it is important
+        -You might remember some of the content here from my initial presentation
+    -Then I will do a demo of my finished project to show you what I ended up building
+    -Next I will get into how I built my project and the resources I used
+    -I will discuss challenges I faced while implementing my project
+    -Then I will discuss current limitations and opportunities for future work
+    -Finally I will wrap things up by summarizing what I accomplished
 
-Background
--refresher
-    -Some of you might remember when this pandemic began last spring some people said this would all just 'go away' with warmer weather...
+Refresher
+    -Some of you might remember when this pandemic began in early 2020 that some people said this would all just 'go away' with warmer weather...
     -While we know that this did not all just 'go away', people were bringing this up because weather's effect on the season flu is actually well established.
     -There was a study done in France in 2016 that looked at weather's role on seasonal influenza spread (Roussel et al., 2016)
-        -This study found that a couple groups of weather variables had an impact of influenza spread
+        -This study found that a couple groups of weather variables had an impact on influenza spread
             -The first group was temperature, aboslute humidity and daily variation of aboslute humidity
             -The second group was sunshine duration, relative humidity and daily variation of relative humidity
             -The impact of these groups of weather variables was found to be between 3% - 6%, so relatively low but still there
@@ -126,6 +125,8 @@ Conclusion
 -I would like to thank all 3 of you for being a part of my graduate committee
 -I really appreciate everyone's time and participation
 -I would also like to give special thanks to Dr Dorn who throughout this last year has been meeting with me a few times a month to help me develop the proposal for this project and answer all my questions
+
+
 
 
 
