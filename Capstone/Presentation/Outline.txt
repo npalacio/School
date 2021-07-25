@@ -113,7 +113,8 @@ Challenges
 -for the most part, there were not any major hurdles that popped up. Just normal software development stuff, dealing with random errors and things like that. Things taking a lot longer to implement than I thought.
 -That leads me into my next challenge which was finding the time to work on it with my full time job. Often times I would write code all day at work and then come home and write code for a few more hours. This made for some long days and I am very happy to be finished, although this was enjoyable to work on for the most part.
 -Azure learning curve
-    -Since I had limited experience building things with Azure there was a little bit of a learning curve there while I was getting my services set up. Azure has pretty good documentation and for a lot of stuff I was able to follow their simple tutorials online.
+    -Since I had limited experience building things with Azure there was a little bit of a learning curve there while I was getting my services set up
+    -Azure has pretty good documentation and for a lot of stuff I was able to follow their simple tutorials online
 -calling things 'good enough'
     -The toughest challenge for me personally throughout the project was knowing when to call things 'good enough'
     -I did not have the time or resources to make everything perfect so I had to make concious decisions to call my current implementation good enough so I could move onto the other things I needed to implement.
@@ -125,7 +126,8 @@ Conclusion
 -I would like to thank all 3 of you for being a part of my graduate committee
 -I really appreciate everyone's time and participation
 -I would also like to give special thanks to Dr Dorn who throughout this last year has been meeting with me a few times a month to help me develop the proposal for this project and answer all my questions
-
+-He was a big help to me this last year
+-Now I would like to open it up to any questions anyone might have
 
 
 
